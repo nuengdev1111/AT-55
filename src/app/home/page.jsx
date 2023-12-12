@@ -3,6 +3,7 @@ import Header from "../../components/header";
 import Breadcrumb from "../../components/breadcrumb";
 import Image from 'next/image'
 import styles from "./home.module.scss";
+import TopNav from "../../components/navbar";
 
 const menu = [
   { name: "หน้าแรก", rounte: "", status: "active"},
@@ -25,8 +26,12 @@ export default function Home() {
       alt="Picture of the author"
     />
     <br />
+    <TopNav>
 
-      <Breadcrumb menu={menu} />
+    </TopNav>
+    <br />
+
+      
 
 
     </main>
