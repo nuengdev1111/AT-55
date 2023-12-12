@@ -56,7 +56,6 @@ export default function LoginForm({ data }) {
           <Typography className="text-center pb-10" variant="h5">
             <strong>เข้าสู่ระบบ ทดสอบ</strong>
             <strong>เข้าสู่ระบบ ทดสอบ</strong>
-            <strong>เข้าสู่ระบบ ทดสอบ</strong>
           </Typography>
 
           <div className="pb-4">
