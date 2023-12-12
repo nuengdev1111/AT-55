@@ -1,4 +1,46 @@
-.img{
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+  }
+  
+  .overlayImage {
+    position: absolute;
+    
+    padding-left: 60px;
+    padding-top: 700px; 
+  }
+  
+  .overlayImage2 {
+    position: absolute;
+    bottom: 580px; 
+    left: 422px;
+    padding-top: 220px;
+
+  }
+
+  .overlayImage3 {
+    position: absolute;
+   padding-left: 700px;
+   padding-top: 96px;
+   
+  }
+
+.textoverlay{
+    position: absolute;
+    margin-top: 216px;
+    text-align: center;
+    left: 14%;
 }
+
+  .overlaytext {
+    position: relative;
+    color: #703b2a;
+    font-weight: bold;
+    padding-top: 200px;
+    font-size: 20px;
+  }
+
+ 
