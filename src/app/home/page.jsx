@@ -18,7 +18,13 @@ export default function Home() {
       </Container>
       <br />
 
-     
+      <Image
+      className={styles.img}
+      src="/pai.png"
+      width={0}
+      height={0}
+      alt="Picture of the author"
+    />
     <br />
     <TopNav>
 
