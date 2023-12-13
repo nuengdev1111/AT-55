@@ -1,46 +1,43 @@
 .backgroundImage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .overlayImage {
-    position: absolute;
-    
-    margin-left: 60px;
-    margin-top: 700px; 
-  }
-  
-  .overlayImage2 {
-    position: absolute;
-    bottom: 580px; 
-    left: 422px;
-    margin-top: 220px;
-
-  }
-
-  .overlayImage3 {
-    position: absolute;
-   margin-left: 700px;
-   margin-top: 96px;
-   
-  }
-
-.textoverlay{
-    position: absolute;
-    margin-top: 216px;
-    text-align: center;
-    left: 14%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-  .overlaytext {
-    position: relative;
-    color: #703b2a;
-    font-weight: bold;
-    margin-top: 200px;
-    font-size: 20px;
-  }
+.overlayImage {
+  position: fixed;
 
- 
+  left: 23%;
+  top: 70%;
+}
+
+.overlayImage2 {
+  position: fixed;
+  top: 20%;
+  left: 22%;
+}
+
+.overlayImage3 {
+  position: fixed;
+  right: 20%;
+  top: 10%;
+}
+
+.textoverlay {
+  position: fixed;
+  margin-top: 216px;
+  text-align: center;
+  left: 14%;
+}
+
+.overlaytext {
+  position: fixed;
+  color: #703b2a;
+  font-weight: bold;
+  top: 40%;
+  left: 32%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
