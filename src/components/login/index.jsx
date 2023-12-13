@@ -47,12 +47,15 @@ export default function LoginForm({ data }) {
     e.preventDefault();
   };
 
+
+
   return (
     <Box className="mt-4 flex justify-center">
       <Card variant="outlined" sx={{ maxWidth: 600, width: "100%" }}>
         <Box sx={{ p: { xs: 2, md: 5 } }}>
           <Typography className="text-center pb-10" variant="h5">
-            <strong>เข้าสู่ระบบ</strong>
+            <strong>เข้าสู่ระบบ ทดสอบ</strong>
+            <strong>เข้าสู่ระบบ ทดสอบ 2</strong>
           </Typography>
 
           <div className="pb-4">
