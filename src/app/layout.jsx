@@ -1,9 +1,7 @@
 import { Inter } from "next/font/google";
 import ThemeRegistry from "../theme/ThemeRegistry";
 import "./globals.scss";
-
 import FooterForm from "../components/footer";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
