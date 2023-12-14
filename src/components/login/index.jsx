@@ -1,7 +1,6 @@
 "use client";
 import {useState} from "react";
 // import { redirect } from "next/navigation";
-import styles from "./login.module.scss";
 import ButtonUI from "../../components/ui/button";
 import {
   Box,
@@ -83,6 +82,7 @@ export default function LoginForm({ data }) {
 
           <div className="pb-4">
             <Typography>รหัสผ่าน</Typography>
+            
             <OutlinedInput
               id="outlined-adornment-password"
               type={showPassword ? "text" : "password"}

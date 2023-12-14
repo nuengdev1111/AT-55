@@ -24,9 +24,9 @@ export default function CustomizedBreadcrumbs({ menu }) {
             Home
           </Link>
 
-          {menu.map(({ name, rounte, status }) => {
+          {menu.map(({ name, rounte, status },i) => {
             return (
-              <div key={name}>
+              <div key={i}>
                 {status !== "active" ? (
                   <Link underline="hover" color="inherit" href={rounte}>
                     {name}
