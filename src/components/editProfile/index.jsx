@@ -3,6 +3,7 @@ import {
     InputAdornment,
     IconButton,
 } from "@mui/material";
+
 export default function EditProfileForm() {
     return(
         <Box className="mt-2 flex justify-center" sx={{ marginTop: '3rem', marginBottom: '5rem' }}>
