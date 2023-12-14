@@ -1,6 +1,6 @@
 import { Container } from "@mui/material";
 import Header from "../../components/header";
-import Breadcrumb from "../../components/breadcrumb";
+
 import Image from 'next/image'
 import styles from "./home.module.scss";
 import TopNav from "../../components/navbar";
