@@ -7,13 +7,15 @@ import Link from '@mui/material/Link';
 const Footer = () => {
   return (
     <footer className={styles.bg}>
-      <Image
-        className={styles.img}
-        src="/logo.png"
-        width={20}
-        height={20}
-        alt="Picture of the author"
-      />
+      <div className={styles.imgContainer}>
+        <Image
+          className={styles.img}
+          src="/logo.png"
+          width={20}
+          height={20}
+          alt="Picture of the author"
+        />
+      </div>
       <div className={styles.text}>
         <h6 style={{ color: 'black', fontWeight: 'bold', fontSize: '2rem', marginBottom: '10px', textAlign: 'left' }}>องค์การบริหารส่วนตำบลบางเสาธง</h6>
         <p style={{ color: 'black', marginBottom: '10px', textAlign: 'left' }}>ถ.เทพรัตน กม.26 ตำบลบางเสาธง อำเภอเสาธง จังหวัดสมุทรปราการ 10570</p>
@@ -39,11 +41,8 @@ const Footer = () => {
             >
               ติดต่อ
             </Link>
-            {/* <Typography color="text.primary">ติดต่อ</Typography> */}
           </Breadcrumbs>
         </div>
-
-
       </div>
     </footer>
   );
