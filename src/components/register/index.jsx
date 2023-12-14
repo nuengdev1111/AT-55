@@ -35,7 +35,7 @@ const selectType = [
   },
 ];
 
-export default function LoginForm({ data }) {
+export default function RegisterForm({ data }) {
   const [showPassword, setShowPassword] = useState(false);
 
   const handleChange = (event) => {
@@ -55,7 +55,7 @@ export default function LoginForm({ data }) {
         <Box sx={{ p: { xs: 2, md: 5 } }}>
           <Typography className="text-center pb-10" variant="h5">
             <strong>เข้าสู่ระบบ ทดสอบ</strong>
-            <strong>เข้าสู่ระบบ ทดสอบ 2</strong>
+            
           </Typography>
 
           <div className="pb-4">

@@ -1,0 +1,43 @@
+.backgroundImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlayImage {
+  position: fixed;
+
+  left: 23%;
+  top: 70%;
+}
+
+.overlayImage2 {
+  position: fixed;
+  top: 20%;
+  left: 22%;
+}
+
+.overlayImage3 {
+  position: fixed;
+  right: 20%;
+  top: 10%;
+}
+
+.textoverlay {
+  position: fixed;
+  margin-top: 216px;
+  text-align: center;
+  left: 14%;
+}
+
+.overlaytext {
+  position: fixed;
+  color: #703b2a;
+  font-weight: bold;
+  top: 40%;
+  left: 32%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
