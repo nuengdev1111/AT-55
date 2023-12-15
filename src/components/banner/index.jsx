@@ -12,39 +12,30 @@ export default function Page() {
   return (
     <section>
       <div>
-        <Swiper
-          navigation
-          pagination={{ type: "fraction" }}
-          modules={[Navigation, Pagination]}
-          onSwiper={(swiper) => console.log(swiper)}
-        >
-          {images.map((image, index) => (
-            <SwiperSlide
-              key={index}
-              className="flex justify-center items-center"
-            >
-              <div
-                className={styled.img}
-                style={{
-                  width: "100%",
-                  height: "800px",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  layout="responsive"
-                  width={500}
-                  height={0}
-                />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+      <Swiper
+  navigation
+  pagination={{ type: "fraction" }}
+  modules={[Navigation, Pagination]}
+  onSwiper={(swiper) => console.log(swiper)}
+>
+  {images.map((image, index) => (
+    <SwiperSlide key={index}>
+      <div className={styled.swiperimagecontainer}>
+        <Image
+          src={image.src}
+          alt={image.alt}
+          layout="fill"
+          objectFit="cover"
+          
+        />
       </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+
+</div>
+
+
     </section>
   );
 }
