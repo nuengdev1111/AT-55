@@ -22,7 +22,7 @@ export default function ResetPass() {
       <Container maxWidth="lg">
         <br /><br />
       <Requesttrash />
-      {/* <ReCaptchaProvider reCaptchaKey="[GTM-6Le2kjApAAAAAFbcnOI2OJMzVjp1PqFBv2SgvWGL]"></ReCaptchaProvider> */}
+
       </Container>
     </main>
   );
