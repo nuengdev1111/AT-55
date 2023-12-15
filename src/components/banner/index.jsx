@@ -41,6 +41,11 @@ export default function Page() {
                   height={0}
                 />
               </div>
+              <div style={{transform: "translateY(-191px)" }}>
+                <div style={{transform: "translateX(1001px)" , width: "30%" }}>
+                    <Lottie loop={true} animationData={Child} />
+                </div>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
