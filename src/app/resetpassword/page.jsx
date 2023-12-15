@@ -2,7 +2,7 @@ import { Container } from "@mui/material";
 import Header from "../../components/header";
 import Breadcrumb from "../../components/breadcrumb";
 import ResetPassword from "../../components/resetpassword";
-
+import Banner from "../../components/banner";
 
 
 const menu = [ 
@@ -16,6 +16,7 @@ export default function ResetPass() {
       <Container maxWidth="lg">
         <Header />
       </Container>
+      <Banner />
       <Breadcrumb menu={menu} />
      
       <Container maxWidth="lg">

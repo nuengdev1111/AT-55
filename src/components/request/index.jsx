@@ -23,7 +23,7 @@ import {
 import Header from "../../components/header";
 import Breadcrumb from "../../components/breadcrumb";
 import React, { useState } from "react";
-import { useReCaptcha } from "next-recaptcha-v3";   
+// import { useReCaptcha } from "next-recaptcha-v3";   
 
 
 const menu = [{ name: "แก้ไขข้อมูลส่วนตัว", rounte: "", status: "active" }];
