@@ -2,6 +2,10 @@
 
 import Image from 'next/image'
 
+import Child from "../../../public/Child.json";
+
+import Lottie from "lottie-react";
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination } from 'swiper/modules'
 
@@ -17,7 +21,7 @@ export default function Page() {
       <div className='container'>
         <Swiper
           navigation
-          pagination={{ type: 'fraction' }}
+          // pagination={{ type: 'fraction' }}
           modules={[Navigation, Pagination]}
           onSwiper={swiper => console.log(swiper)}
           className='h-186 w-full rounded-lg'
@@ -30,6 +34,11 @@ export default function Page() {
                   alt={image.alt}
                   className='block h-full w-full object-cover'
                 />
+              </div>
+              <div style={{transform: "translateY(-191px)" }}>
+                <div style={{transform: "translateX(1001px)" , width: "30%" }}>
+                    <Lottie loop={true} animationData={Child} />
+                </div>
               </div>
             </SwiperSlide>
           ))}
