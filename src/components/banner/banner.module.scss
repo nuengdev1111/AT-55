@@ -1,9 +1,103 @@
-.swiperimagecontainer {
-    position: relative;
-  width: 100%;
-  height: 600px; /* ปรับความสูงตามต้องการ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.overlay {
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    width: 70%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
   }
   
+  @media (max-width: 1600px) {
+    .overlay {
+        top: 2%;
+        left: 9%;
+        width: 20%;
+        height: 10%;
+        padding: 5%;
+      flex-direction: absolute;
+    }
+  }
+
+  @media (max-width: 1140px) {
+    .overlay {
+        top: 10%;
+        left: -2%;
+        width: 20%;
+        height: 10%;
+        padding: 5%;
+      flex-direction: absolute;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .overlay {
+        top: 20%;
+        left: 1%;
+        width: 20%;
+        height: 10%;
+        padding: 5%;
+      flex-direction: absolute;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .overlay {
+      top: 40%;
+      left: 5%;
+      width: 20%;
+      height: 10%;
+      padding: 5%;
+      flex-direction: absolute;
+    }
+  }
+
+  .logo{
+    width: 200px;
+    height: 200px;
+  }
+
+  @media (max-width: 1600px) {
+    .logo {
+      width: 120px; 
+    }
+  }
+
+  @media (max-width: 1140px) {
+    .logo {
+      width: 100px; 
+    }
+  }
+
+  @media (max-width: 768px) {
+    .logo {
+      width: 80px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+        width: 50px; 
+      }
+    }
+.text{
+    padding-left: 30px;
+    padding-bottom: 55px;
+    font-size: larger;
+}
+
+.headingStyle {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .headingStyle2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }

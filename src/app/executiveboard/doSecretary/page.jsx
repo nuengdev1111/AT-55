@@ -24,7 +24,7 @@ export default function executive() {
       <DoSecretary/>
      
       </Container>
-      <Footer/>
+      {/* <Footer/> */}
     </main>
   );
 }
