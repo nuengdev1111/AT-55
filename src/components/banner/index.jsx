@@ -1,49 +1,57 @@
-'use client'
+"use client";
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import styled from "./banner.module.scss";
 
-import Image from 'next/image'
-
-import Child from "../../../public/Child.json";
-
-import Lottie from "lottie-react";
-
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination } from 'swiper/modules'
-
-import { images } from '../../../lib/images'
-
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
+const images = [
+  "/first.png",
+  "/second.jpg",
+  "/third.jpg",
+  // เพิ่มรูปภาพอื่น ๆ ตามต้องการ
+];
 
 export default function Page() {
   return (
-    <section className='py-12'>
-      <div className='container'>
+    <section>
+      <div>
+
         <Swiper
-          navigation
-          // pagination={{ type: 'fraction' }}
+          autoHeight={true}
+          spaceBetween={20}
+          navigation={true}
+          pagination={{
+            clickable: true,
+          }}
           modules={[Navigation, Pagination]}
-          onSwiper={swiper => console.log(swiper)}
-          className='h-186 w-full rounded-lg'
-        > 
+          className="mySwiper"
+        >
           {images.map((image, index) => (
             <SwiperSlide key={index}>
-              <div style={{height: 650}} className='flex w-full items-center justify-center'>
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  className='block h-full object-cover w-full sm:w-22'
-                />
-              </div>
-              <div style={{transform: "translateY(-191px)" }}>
-                <div style={{transform: "translateX(1001px)" , width: "30%" }}>
-                    <Lottie loop={true} animationData={Child} />
-                </div>
-              </div>
+              <Image
+                src={image}
+                alt={`Slide ${index}`}
+                width={1000}
+                height={400}
+                layout="responsive"
+              />
+              <div className={styled.overlay}>
+          <div className={styled.logo}>
+            <img src="/logo.png" alt="Logo" />
+          </div>
+          {/* <div className={styled.text}>
+          <h1 className={styled.headingStyle}>องค์การบริหารส่วนตำบลบางเสาธง</h1>
+            <h2 className={styled.headingStyle2}>Bangsaotong Subdistrict Administrative Organization</h2>
+          </div> */}
+        </div>
+      
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
     </section>
-  )
+  );
 }

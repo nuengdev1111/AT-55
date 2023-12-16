@@ -1,12 +1,13 @@
 import { Container } from "@mui/material";
 import Header from "../../../components/header";
 import Breadcrumb from "../../../components/breadcrumb";
-import Executive from "../../../components/executiveboard/executive";
 import Footer from "@/components/footer2Bangsaotong";
+import DoSecretary from "../../../components/executiveboard/dosecretary";
+import Banner from "../../../components/banner"
 
 
 const menu = [ 
-  { name: "คณะผู้บริหาร", rounte: "", status: "active"},
+  { name: "สำนักปลัด อบต.", rounte: "", status: "active"},
  
 ];
 
@@ -16,13 +17,14 @@ export default function executive() {
       <Container maxWidth="lg">
         <Header />
       </Container>
+      <Banner/>
       <Breadcrumb menu={menu} />
      
       <Container maxWidth="lg">
-      <Executive/>
+      <DoSecretary/>
      
       </Container>
-      <Footer/>
+      {/* <Footer/> */}
     </main>
   );
 }
