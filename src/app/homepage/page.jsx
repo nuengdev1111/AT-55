@@ -2,14 +2,14 @@ import { Container } from "@mui/material";
 import Header from "../../components/header";
 import Breadcrumb from "../../components/breadcrumb";
 // import LoginForm from "../../components/login";
-import styles from "./landing.module.scss";
+import styles from "./homepage.module.scss";
 import Image from 'next/image'
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Tableflow from "../../components/tableflow";
+import Tablehome from "../../components/tablehome";
 import Banner from "../../components/banner";
-
+import Pool from "../../components/pool";
 
 
 const menu = [
@@ -129,9 +129,9 @@ export default function Login() {
                     </div>
                     </Box>
                     <div className="translate-y-[-57.5rem]">
-                        <Tableflow />
+                        <Tablehome />
                     </div>
-                        
+                    <Pool />
             </div>
     
 

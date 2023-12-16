@@ -32,7 +32,7 @@ export default function Page() {
                 <Image
                   src={image.src}
                   alt={image.alt}
-                  className='block h-full w-full object-cover'
+                  className='block h-full object-cover w-full sm:w-22'
                 />
               </div>
               <div style={{transform: "translateY(-191px)" }}>
