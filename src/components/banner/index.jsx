@@ -6,6 +6,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import styled from "./banner.module.scss";
+import Child from "../../../public/Child.json";
+
+import Lottie from "lottie-react";
 
 const images = [
   "/first.png",
@@ -42,6 +45,7 @@ export default function Page() {
           <div className={styled.logo}>
             <img src="/logo.png" alt="Logo" />
           </div>
+          
           {/* <div className={styled.text}>
           <h1 className={styled.headingStyle}>องค์การบริหารส่วนตำบลบางเสาธง</h1>
             <h2 className={styled.headingStyle2}>Bangsaotong Subdistrict Administrative Organization</h2>
@@ -51,6 +55,11 @@ export default function Page() {
             </SwiperSlide>
           ))}
         </Swiper>
+        <div className="flex ">
+          <div className="left-48" style={{ width: "20%" }}>
+                  <Lottie loop={true} animationData={Child} />
+          </div>
+        </div>
       </div>
     </section>
   );

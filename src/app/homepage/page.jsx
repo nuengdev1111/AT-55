@@ -10,6 +10,7 @@ import Button from '@mui/material/Button';
 import Tablehome from "../../components/tablehome";
 import Banner from "../../components/banner";
 import Pool from "../../components/pool";
+import Content from "../../components/content";
 
 
 const menu = [
@@ -132,6 +133,7 @@ export default function Login() {
                         <Tablehome />
                     </div>
                     <Pool />
+                    <Content />
             </div>
     
 
