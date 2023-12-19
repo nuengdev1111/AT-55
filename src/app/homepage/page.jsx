@@ -11,7 +11,12 @@ import Tablehome from "../../components/tablehome";
 import Banner from "../../components/banner";
 import Pool from "../../components/pool";
 import Content from "../../components/content";
-
+import MiddleH from "../../components/middlehome";
+import Cardcard from "../../components/cardcard";
+import Gallery from "../../components/gallery";
+import Gallery2 from "../../components/gallery2";
+import Gallery3 from "../../components/gallery3";
+import Tablefoot from "../../components/tablefoot";
 
 const menu = [
   { name: "เข้าสู่ระบบ", rounte: "", status: "active"},
@@ -133,8 +138,33 @@ export default function Login() {
                         <Tablehome />
                     </div>
                     <Pool />
-                    <Content />
-            </div>
+                    <div className="translate-x-[28.5rem] translate-y-[-74rem]">
+                        <MiddleH />
+                    </div>
+                    <div className="translate-x-[4rem] translate-y-[14rem]">
+                        <Content />
+                    </div>
+                    <h1 style={{fontSize: 28}} className="translate-x-[2rem] translate-y-[-53rem] font-bold">แหล่งเรียนรู้</h1>
+                    <div className="translate-x-[4rem] translate-y-[-44rem] pb-11">
+                        <Cardcard />
+                    </div>
+                    <h1 style={{fontSize: 28}} className="translate-x-[2rem] translate-y-[-53rem] font-bold">กิจกรรม อบต.</h1>
+                    <div className="translate-y-[-1rem]">
+                        <Gallery />
+                    </div>
+                    <h1 style={{fontSize: 28}} className="translate-x-[2rem] translate-y-[-49rem] font-bold">แหล่งท่องเที่ยวที่สำคัญ</h1>
+                    <div className="translate-y-[4rem]">
+                        <Gallery2/>
+                    </div>
+                    <h1 style={{fontSize: 28}} className="translate-x-[2rem] translate-y-[-40rem] font-bold">หนึ่งตำบลหนึ่งผลิตภัณฑ์</h1>
+                    <div className="translate-y-[12rem]">
+                        <Gallery3/>
+                    </div>
+                    <h1 style={{fontSize: 28}} className="flex justify-center translate-x-[-13rem] translate-y-[-30rem] font-bold">สำหรับเจ้าหน้าที่</h1>
+                    <div className=" translate-y-[-7rem]">
+                        <Tablefoot />
+                    </div>
+            </div>  
     
 
       {/* <Breadcrumb menu={menu} /> */}
