@@ -17,6 +17,7 @@ const images = [
   // เพิ่มรูปภาพอื่น ๆ ตามต้องการ
 ];
 
+
 export default function Page() {
   return (
     <section>
@@ -55,8 +56,8 @@ export default function Page() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="flex ">
-          <div className="left-48" style={{ width: "20%" }}>
+        <div className="flex translate-x-[64rem] translate-y-[-9rem] relative z-20">
+          <div className="left-88" style={{ width: "20%" }}>
                   <Lottie loop={true} animationData={Child} />
           </div>
         </div>
@@ -64,3 +65,6 @@ export default function Page() {
     </section>
   );
 }
+
+
+

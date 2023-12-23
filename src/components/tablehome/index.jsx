@@ -101,12 +101,15 @@ export default function LoginForm({ data }) {
 
   return (
     <Box className="mt-4 flex justify-center">
-      <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxWidth: 800, width: "100%" }}>
+      <Card variant="outlined" className="xl:w-[750px] translate-x-[-2rem] translate-y-[-8.7rem] md:w-[550px]">
+      {/* <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxWidth: 800, width: "100%" }}> */}
         {/* <div className="pb-9">
             <Breadcrumb menu={menu} />
         </div> */}
         <div className="pb-14">
-        <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}>
+        <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200">
+        {/* <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}> */}
+        {/* <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}> */}
             <CardContent className="bg-gradient-to-r from-white-200 via-lightblue-200 to-blue-200">
                 <div className="flex">
                     <img className="translate-x-[-2rem] translate-y-[-1rem]" src="/logoeservice.webp"/>

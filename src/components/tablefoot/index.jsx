@@ -101,20 +101,21 @@ export default function LoginForm({ data }) {
 
   return (
     <Box className="mt-4 justify-center">
-           <div className="flex gap-6 translate-x-[15rem] translate-y-[-8.7rem]">
-                    <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxWidth: 200, width: "100%" }}>
+           <div className="flex gap-6 translate-x-[6rem] translate-y-[-8.7rem]">
+                    <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
                         {/* <div className="pb-9">
                             <Breadcrumb menu={menu} />
                         </div> */}
                         <div className="pb-14">
-                        <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}>
-                            <CardContent className="bg-gradient-to-r from-white-200 via-lightblue-200 to-blue-200">
+                        {/* <Card className="bg-gradient-to-t from-white to-blue-400" sx={{ minWidth: 275 }}> */}
+                            <CardContent className="bg-gradient-to-t from-white to-blue-400">
                                 <div className="flex">
                                     {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                     Word of the Day
                                     </Typography> */}
-                                    <Typography variant="h6" component="div">
-                                        ช่วยลดการแพร่ระบาดของ COVID-19..
+                                    <img style={{height: 94}} src="/gi1.png"/>
+                                    <Typography className="font-bold" variant="h10" component="div">
+                                        สำหรับเจ้าหน้าที่ระบบบริการออนไลน์
                                     </Typography>
                                     {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
                                     adjective
@@ -125,32 +126,26 @@ export default function LoginForm({ data }) {
                                     {'"a benevolent smile"'}
                                     </Typography> */}
                                 </div>
-                                <Typography variant="h5" component="div">
-                                    ยินดีต้อนรับเข้าสู่ One Stop Service
-                                </Typography>
-                                <br />
-                                <Typography className="pb-5" variant="h8" component="div">
-                                    ครบทุกงานบริการประชาชน สะดวกรวดเร็วตลอด 24 ชม.
-                                </Typography>
                             
                             
                             </CardContent>  
-                            </Card>
+                            {/* </Card> */}
                         </div>
                     </Card>
-                    <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxWidth: 200, width: "100%" }}>
+                    <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
                         {/* <div className="pb-9">
                             <Breadcrumb menu={menu} />
                         </div> */}
                         <div className="pb-14">
-                        <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}>
-                            <CardContent className="bg-gradient-to-r from-white-200 via-lightblue-200 to-blue-200">
+                        {/* <Card className="bg-gradient-to-t from-white to-blue-400" sx={{ minWidth: 275 }}> */}
+                            <CardContent className="bg-gradient-to-t from-white to-blue-400">
                                 <div className="flex">
                                     {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                     Word of the Day
                                     </Typography> */}
-                                    <Typography variant="h6" component="div">
-                                        ช่วยลดการแพร่ระบาดของ COVID-19..
+                                    <img style={{height: 94}} src="/gi2.png"/>
+                                    <Typography className="font-bold" variant="h10" component="div">
+                                        สำหรับเจ้าหน้าที่ระบบ E-Office
                                     </Typography>
                                     {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
                                     adjective
@@ -161,32 +156,25 @@ export default function LoginForm({ data }) {
                                     {'"a benevolent smile"'}
                                     </Typography> */}
                                 </div>
-                                <Typography variant="h5" component="div">
-                                    ยินดีต้อนรับเข้าสู่ One Stop Service
-                                </Typography>
-                                <br />
-                                <Typography className="pb-5" variant="h8" component="div">
-                                    ครบทุกงานบริการประชาชน สะดวกรวดเร็วตลอด 24 ชม.
-                                </Typography>
-                            
                             
                             </CardContent>  
-                            </Card>
+                            {/* </Card> */}
                         </div>
                     </Card>
-                    <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxWidth: 200, width: "100%" }}>
+                    <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{maxHeight: 160, maxWidth: 300, width: "100%" }}>
                         {/* <div className="pb-9">
                             <Breadcrumb menu={menu} />
                         </div> */}
                         <div className="pb-14">
-                        <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}>
-                            <CardContent className="bg-gradient-to-r from-white-200 via-lightblue-200 to-blue-200">
+                        {/* <Card className="bg-gradient-to-t from-white to-blue-400" sx={{ minWidth: 275 }}> */}
+                            <CardContent className="bg-gradient-to-t from-white to-blue-400">
                                 <div className="flex">
                                     {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                     Word of the Day
                                     </Typography> */}
-                                    <Typography variant="h6" component="div">
-                                        ช่วยลดการแพร่ระบาดของ COVID-19..
+                                    <img style={{height: 94}} src="/gi3.png"/>
+                                    <Typography className="font-bold" variant="h10" component="div">
+                                    สำหรับเจ้าหน้าที่ระบบการบริหารและพัฒนาทรัพยากรบุคคล
                                     </Typography>
                                     {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
                                     adjective
@@ -197,34 +185,28 @@ export default function LoginForm({ data }) {
                                     {'"a benevolent smile"'}
                                     </Typography> */}
                                 </div>
-                                <Typography variant="h5" component="div">
-                                    ยินดีต้อนรับเข้าสู่ One Stop Service
-                                </Typography>
-                                <br />
-                                <Typography className="pb-5" variant="h8" component="div">
-                                    ครบทุกงานบริการประชาชน สะดวกรวดเร็วตลอด 24 ชม.
-                                </Typography>
                             
                             
                             </CardContent>  
-                            </Card>
+                            {/* </Card> */}
                         </div>
                     </Card>
       </div>
       <br />
-      <Card variant="outlined" className="translate-x-[12.5rem] translate-y-[-15rem]" sx={{ maxWidth: 200, width: "100%" }}>
+      <Card variant="outlined" className="translate-x-[3.7rem] translate-y-[-15rem]" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
         {/* <div className="pb-9">
             <Breadcrumb menu={menu} />
         </div> */}
         <div className="pb-14">
-        <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}>
-            <CardContent className="bg-gradient-to-r from-white-200 via-lightblue-200 to-blue-200">
+        {/* <Card className="bg-gradient-to-t from-white to-blue-400" sx={{ minWidth: 275 }}> */}
+            <CardContent className="bg-gradient-to-t from-white to-blue-400">
                 <div className="flex">
                     {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     Word of the Day
                     </Typography> */}
-                    <Typography variant="h6" component="div">
-                        ช่วยลดการแพร่ระบาดของ COVID-19..
+                    <img style={{height: 94}} src="/gi4.png"/>
+                    <Typography className="font-bold" variant="h10" component="div">
+                        สำหรับเจ้าหน้าที่จัดการเว็บไซต์
                     </Typography>
                     {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
                     adjective
@@ -235,19 +217,13 @@ export default function LoginForm({ data }) {
                     {'"a benevolent smile"'}
                     </Typography> */}
                 </div>
-                <Typography variant="h5" component="div">
-                    ยินดีต้อนรับเข้าสู่ One Stop Service
-                </Typography>
-                <br />
-                <Typography className="pb-5" variant="h8" component="div">
-                    ครบทุกงานบริการประชาชน สะดวกรวดเร็วตลอด 24 ชม.
-                </Typography>
                
                
             </CardContent>  
-            </Card>
+            {/* </Card> */}
         </div>
       </Card>
     </Box>
   );
 }
+

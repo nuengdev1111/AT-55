@@ -14,7 +14,7 @@ export default function LoginForm({ data }) {
       <div className="flex-1 flex-col xl:px-0 sm:px-16 px-6"> 
           <div className="flex p-12">
             <div className="flex">
-              <img style={{height: 130,width: 350}} className="translate-x-[20rem] translate-y-[-64rem]" src="/pool.webp"/>
+              <img style={{height: 130}} className="xl: w-[350px] sm: w-[110px] translate-x-[20rem] translate-y-[-64rem]" src="/pool.webp"/>
                 <img style={{height: 50,width: 65}} className="translate-x-[0.4rem] translate-y-[-62.3em]" src="/ico1.webp"/>
                 <h2 className="translate-x-[1.6rem] translate-y-[-62.4rem] text-white font-bold">แจ้งเรื่อง<br />ร้องเรียนร้องทุกข์</h2>
             </div>
