@@ -22,6 +22,7 @@ import Fourhome from "../../components/fourhome";
 import Formbutt from "../../components/formbutt";
 import Googlemap from "../../components/googlemap";
 import Dropcon from "../../components/dropcon";
+import pool2 from "../../components/pool2";
 
 const menu = [
   { name: "เข้าสู่ระบบ", rounte: "", status: "active"},
@@ -144,11 +145,13 @@ export default function Login() {
                         {/* <Dropcon /> */}
                         <Tablehome />
                     </div>
-                    <Pool />
-                    <div className="translate-x-[28.5rem] translate-y-[-74rem]">
+                    <div className="translate-y-[3.5rem]">
+                        <Pool />
+                    </div>
+                    <div className="translate-x-[29.5rem] translate-y-[-94rem]">
                         <MiddleH />
                     </div>
-                    <div className="translate-x-[4rem] translate-y-[14rem]">
+                    <div className="translate-x-[4rem] translate-y-[-14rem]">
                         <Content />
                     </div>
                     <h1 style={{fontSize: 28}} className="translate-x-[2rem] translate-y-[-53rem] font-bold">แหล่งเรียนรู้</h1>

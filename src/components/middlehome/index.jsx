@@ -18,10 +18,10 @@ export default function LoginForm({ data }) {
           <div className="pb-2">
             <img style={{width: 670}} src="/ban2.jpg"/>
           </div>
-            <div className="flex gap-3">
+            {/* <div className="flex gap-3">
               <img style={{width: 330}} src="/v1.jpg"/>
               <img style={{width: 330}} src="/v2.jpg"/>
-            </div>
+            </div> */}
         </div>
       </div>
       

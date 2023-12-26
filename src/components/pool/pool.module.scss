@@ -4,3 +4,9 @@
     margin: auto auto;
     display: flex;
 }
+
+@media (max-width: 600px){
+    .img1 {
+        width: 4px;
+    }
+}
