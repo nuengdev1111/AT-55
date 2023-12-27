@@ -83,25 +83,12 @@ export default function LoginForm({ data }) {
 
   // const height = 44
 
-  const commonStyles = {
-    bgcolor: 'background.paper',
-    m: 1,
-    border: 1,
-    width: '44rem',
-    height: '34rem',
-  };
-
-
-  const myStyle = {
-    borderCollapse: "collapse",
-    width: "0px"
-  };
 
 
 
   return (
-    <Box className="mt-4 flex justify-center">
-      <Card variant="outlined" className="xl:w-[750px] translate-x-[-2rem] translate-y-[-8.7rem] md:w-[550px]">
+    <Box className="mt-4 flex justify-center translate-x-[7rem] translate-y-[-75.9rem]">
+      <Card variant="outlined" >
       {/* <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxWidth: 800, width: "100%" }}> */}
         {/* <div className="pb-9">
             <Breadcrumb menu={menu} />
@@ -112,7 +99,7 @@ export default function LoginForm({ data }) {
         {/* <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}> */}
             <CardContent className="bg-gradient-to-r from-white-200 via-lightblue-200 to-blue-200">
                 <div className="flex">
-                    <img className="translate-x-[-2rem] translate-y-[-1rem]" src="/logoeservice.webp"/>
+                    <img  src="/logoeservice.webp"/>
                     {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     Word of the Day
                     </Typography> */}
@@ -136,7 +123,7 @@ export default function LoginForm({ data }) {
                     ครบทุกงานบริการประชาชน สะดวกรวดเร็วตลอด 24 ชม.
                 </Typography>
                 <div className="pb-9">
-                    <button class="bg-amber-300 text-white font-bold py-2 px-4 rounded w-47 h-12">
+                    <button class="bg-amber-300 text-white font-bold py-2 px-4 rounded">
                         บริการยื่นคำร้องออนไลน์
                     </button>
                 </div>

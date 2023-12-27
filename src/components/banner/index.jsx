@@ -21,7 +21,7 @@ const images = [
 export default function Page() {
   return (
     <section>
-      <div>
+      <div className="w-full h-auto translate-x-[-11rem] xl: w-[1509px]">
 
         <Swiper
           autoHeight={true}
@@ -56,8 +56,8 @@ export default function Page() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="flex translate-x-[64rem] translate-y-[-9rem] relative z-20">
-          <div className="left-88" style={{ width: "20%" }}>
+        <div className="flex translate-x-[58rem] translate-y-[-12rem] relative z-20">
+          <div className="left-88" style={{ width: "30%" }}>
                   <Lottie loop={true} animationData={Child} />
           </div>
         </div>

@@ -18,6 +18,7 @@ export default function LoginForm({ data }) {
 
 
     <section className={`flex md:flex-row flex-col`}>
+      <h1 style={{fontSize: 28}} >กิจกรรม อบต.</h1>
       <div className="flex-1 flex-col xl:px-0 sm:px-16 px-6"> 
         <div className="flex">
          
@@ -39,7 +40,7 @@ export default function LoginForm({ data }) {
                   <div>
                     
                   </div>
-                  <div className="flex justify-center gap-7 translate-x-[9.1rem] translate-y-[-50.4rem]">  
+                  <div className="flex justify-center gap-7 translate-x-[14rem] translate-y-[-68.4rem]">  
                     <img style={{height: 197, width: 347, transform: "translateX(-325px)"}} src="/oj.png"/>
                     <img style={{height: 197, width: 347, transform: "translateX(-325px)"}} src="/ggg.png"/>
                     <img style={{height: 197, width: 347, transform: "translateX(-325px)"}} src="/kol.png"/>

@@ -18,6 +18,7 @@ export default function LoginForm({ data }) {
 
 
     <section className={`flex md:flex-row flex-col`}>
+      <h1 style={{fontSize: 28}} className="translate-x-[2rem] translate-y-[-40rem] font-bold">หนึ่งตำบลหนึ่งผลิตภัณฑ์</h1>
       <div className="flex-1 flex-col xl:px-0 sm:px-16 px-6"> 
         <div className="flex">
          

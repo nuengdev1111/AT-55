@@ -6,7 +6,7 @@ import styles from "./login.module.scss";
 import Image from 'next/image'
 
 const menu = [
-  { name: "เข้าสู่ระบบ", rounte: "", status: "active"},
+  { name: "เข้าสู่ระบบ", rounte: "", status: "active" },
 ];
 
 export default function Login() {
@@ -14,26 +14,12 @@ export default function Login() {
     <main className="">
       <Container maxWidth="lg">
         <Header />
-    <br />
-        
-      
-
       </Container>
-    <br />
-      <Image
-      className={styles.image}
-      src="/header.jpg"
-      width={0}
-      height={0}
-      alt="Picture of the author"
-      />
-
-      
 
       <Breadcrumb menu={menu} />
-      <br /><br />
+
       <Container maxWidth="lg">
-      <LoginForm />
+        <LoginForm />
       </Container>
     </main>
   );

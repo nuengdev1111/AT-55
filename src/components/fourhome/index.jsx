@@ -14,7 +14,7 @@ export default function LoginForm({ data }) {
 
   return (
     <section className={`flex md:flex-row flex-col`}>
-      <div className="flex-1 flex-col xl:px-0 sm:px-16 px-6"> 
+      <div className="flex-1 flex-col translate-y-[-17rem] xl:px-0 sm:px-16 px-6"> 
         <button className="bg-blue-500 shadow-lg shadow-blue-700/50 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full translate-x-[30rem] translate-y-[-20rem]">
             หน่วยงานที่เกี่ยวข้อง
         </button>

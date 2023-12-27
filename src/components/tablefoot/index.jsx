@@ -101,15 +101,21 @@ export default function LoginForm({ data }) {
 
   return (
     <Box className="mt-4 justify-center">
-           <div className="flex gap-6 translate-x-[6rem] translate-y-[-8.7rem]">
+         <h1 style={{fontSize: 28}} className="flex justify-center translate-x-[0.3rem] translate-y-[-54rem] font-bold">สำหรับเจ้าหน้าที่</h1>
+           <div className="flex gap-6 translate-x-[6rem] translate-y-[-38.7rem]">
+          
                     <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
                         {/* <div className="pb-9">
                             <Breadcrumb menu={menu} />
                         </div> */}
+                        
                         <div className="pb-14">
+                          
                         {/* <Card className="bg-gradient-to-t from-white to-blue-400" sx={{ minWidth: 275 }}> */}
                             <CardContent className="bg-gradient-to-t from-white to-blue-400">
+                              
                                 <div className="flex">
+                                    
                                     {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                     Word of the Day
                                     </Typography> */}
@@ -193,7 +199,7 @@ export default function LoginForm({ data }) {
                     </Card>
       </div>
       <br />
-      <Card variant="outlined" className="translate-x-[3.7rem] translate-y-[-15rem]" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
+      <Card variant="outlined" className="translate-x-[3.7rem] translate-y-[-45rem]" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
         {/* <div className="pb-9">
             <Breadcrumb menu={menu} />
         </div> */}

@@ -122,7 +122,8 @@ export default function LoginForm({ data }) {
 
   return (
     <Box className="mt-4 flex justify-center">
-      <Card variant="outlined" className="translate-x-[-15rem] translate-y-[-8.7rem]" sx={{ maxWidth: 1100, width: "100%" }}>
+      <h1 style={{fontSize: 28}} className="w-[200px] translate-x-[28.5rem] translate-y-[-85rem] font-bold">แหล่งเรียนรู้</h1>
+      <Card variant="outlined" style={{height: 400}} className="translate-x-[-6.6rem] translate-y-[-79.7rem]" sx={{ maxWidth: 1100, width: "100%" }}>
         {/* <div className="pb-9">
             <Breadcrumb menu={menu} />
         </div> */}

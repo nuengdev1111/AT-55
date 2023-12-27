@@ -12,7 +12,7 @@ export default function LoginForm({ data }) {
 
   return (
     <section className={`flex md:flex-row flex-col`}>
-      <div className="flex-1 flex-col xl:px-0 sm:px-16 px-6"> 
+      <div className="flex-1 flex-col translate-x-[28rem] translate-y-[-104rem] xl:px-0 sm:px-16 px-6"> 
         <h2 style={{fontSize: 33}} className="text-black font-bold pb-4 translate-x-[10rem] translate-y-[-6rem]">E-Service</h2>
         <div className="translate-x-[-5rem] translate-y-[-4rem]">
           <div className="pb-2">
