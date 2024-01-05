@@ -24,6 +24,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import styled from "./tablefoot.module.scss";
 import { permanentRedirect, redirect } from "next/navigation";
 // import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Breadcrumb from "../../components/breadcrumb";
@@ -32,7 +33,8 @@ import Breadcrumb from "../../components/breadcrumb";
 // import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
+import {Grid, Button} from '@mui/material';
 // import Typography from '@mui/material/Typography';
 
 
@@ -46,7 +48,7 @@ const bull = (
       component="span"
       sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
     >
-      •
+      
     </Box>
   );
 
@@ -100,11 +102,14 @@ export default function LoginForm({ data }) {
 
 
   return (
-    <Box className="mt-4 justify-center">
-         <h1 style={{fontSize: 28}} className="flex justify-center translate-x-[0.3rem] translate-y-[-54rem] font-bold">สำหรับเจ้าหน้าที่</h1>
-           <div className="flex gap-6 translate-x-[6rem] translate-y-[-38.7rem]">
+    <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid item xs={12}>
+        <Box className="mt-4 justify-center">
+         <h1 style={{fontSize: 28}} className={styled.text1}>สำหรับเจ้าหน้าที่</h1>
+           <div className={styled.content}>
           
-                    <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
+                    <Card variant="outlined" className="" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
                         {/* <div className="pb-9">
                             <Breadcrumb menu={menu} />
                         </div> */}
@@ -138,7 +143,7 @@ export default function LoginForm({ data }) {
                             {/* </Card> */}
                         </div>
                     </Card>
-                    <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
+                    <Card variant="outlined" className="" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
                         {/* <div className="pb-9">
                             <Breadcrumb menu={menu} />
                         </div> */}
@@ -167,7 +172,7 @@ export default function LoginForm({ data }) {
                             {/* </Card> */}
                         </div>
                     </Card>
-                    <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{maxHeight: 160, maxWidth: 300, width: "100%" }}>
+                    <Card variant="outlined" className="" sx={{maxHeight: 160, maxWidth: 300, width: "100%" }}>
                         {/* <div className="pb-9">
                             <Breadcrumb menu={menu} />
                         </div> */}
@@ -199,13 +204,13 @@ export default function LoginForm({ data }) {
                     </Card>
       </div>
       <br />
-      <Card variant="outlined" className="translate-x-[3.7rem] translate-y-[-45rem]" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
+      <Card variant="outlined" className="rounded-xl" sx={{ maxHeight: 160,maxWidth: 300, width: "100%" }}>
         {/* <div className="pb-9">
             <Breadcrumb menu={menu} />
         </div> */}
-        <div className="pb-14">
+        <div className={styled.content2}>
         {/* <Card className="bg-gradient-to-t from-white to-blue-400" sx={{ minWidth: 275 }}> */}
-            <CardContent className="bg-gradient-to-t from-white to-blue-400">
+            <CardContent className="bg-gradient-to-t from-white to-blue-400 rounded-xl translate-x-[3px] translate-y-[211px]">
                 <div className="flex">
                     {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     Word of the Day
@@ -229,6 +234,9 @@ export default function LoginForm({ data }) {
             {/* </Card> */}
         </div>
       </Card>
+    </Box>
+        </Grid>
+      </Grid>
     </Box>
   );
 }

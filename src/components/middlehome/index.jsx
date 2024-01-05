@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
 // import { redirect } from "next/navigation";
-import styles from "./middlehome.module.scss";
+import styled from "./middlehome.module.scss";
 import { Box, Typography } from "@mui/material";
+import Grid from '@mui/material/Grid';
 
 
 
@@ -11,26 +12,28 @@ export default function LoginForm({ data }) {
  
 
   return (
-    <section className={`flex md:flex-row flex-col`}>
-      <div className="flex-1 flex-col translate-x-[28rem] translate-y-[-104rem] xl:px-0 sm:px-16 px-6"> 
-        <h2 style={{fontSize: 33}} className="text-black font-bold pb-4 translate-x-[10rem] translate-y-[-6rem]">E-Service</h2>
-        <div className="translate-x-[-5rem] translate-y-[-4rem]">
-          <div className="pb-2">
-            <img style={{width: 670}} src="/ban2.jpg"/>
-          </div>
-            {/* <div className="flex gap-3">
-              <img style={{width: 330}} src="/v1.jpg"/>
-              <img style={{width: 330}} src="/v2.jpg"/>
-            </div> */}
-        </div>
-      </div>
-      
-    </section>
-    // <section>
-    //   
-    
 
-    // </section>
+    <Grid container rowSpacing={{ xs: 12, sm: 4, md: 6 }}>
+    {/* <Grid container spacing={2}> */}
+      <Grid item xs={12} md={9} sm={4}>
+        <h2 className={styled.fonte}>E-Service</h2>
+        {/* <h2 style={{fontSize: 33}} className="text-black font-bold pb-4 ">E-Service</h2> */}
+        <div className={styled.eservice}> 
+        
+          {/* <div className=""> */}
+            <div className="ml-[150px] mb-[-176px]">
+              <img className={styled.serimg} src="/ban2.jpg"/>
+              {/* <img style={{width: 670}} src="/ban2.jpg"/> */}
+            </div>
+              {/* <div className="flex gap-3">
+                <img style={{width: 330}} src="/v1.jpg"/>
+                <img style={{width: 330}} src="/v2.jpg"/>
+              </div> */}
+          {/* </div> */}
+        </div>
+      </Grid>
+    </Grid>
+
   );  
 }
 

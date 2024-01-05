@@ -1,71 +1,27 @@
-.img {
-  height: 16rem;
-  width: 15rem;
-  margin: auto auto;
-  display: block;
-  margin-right: 5rem;
-  margin-left: 10rem;
-}
-
 .bg {
   background: linear-gradient(to bottom, #5ed8ff, #5ed8ff, #ffffff, #ffffff);
   text-align: center;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center; 
-  width: 100vw;
+  height: 300px;
 }
 
+.imgLogo {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
 
-
-.text {
-  margin-top: 2rem; /* ปรับระยะห่างใหม่ */
-  text-align: center; /* จัดตำแหน่งตามกลาง */
+.boxImg {
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
   display: flex;
-  justify-content: center; /* จัดตำแหน่งตามกลาง */
-  margin-top: 2rem; /* ปรับระยะห่างใหม่ */
-  margin-right: 5rem;
-}
-
-.menuButton {
-  margin-left: 10px;
-  padding: 5px 10px;
-  color: rgb(23, 19, 19);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* Responsive Styles */
-@media only screen and (max-width: 768px) {
-  .bg {
-    height: auto; /* ทำให้สูงยืดหยุ่นได้ */
-  }
-
-  .menu {
-    flex-direction: column; /* เรียงแนวตั้งในหน้าจอขนาดเล็ก */
-    align-items: center; /* จัดตำแหน่งตามกลาง */
-    margin-top: 1rem; /* ปรับระยะห่างใหม่ */
-  }
-}
-
-.text {
-  margin-top: 5rem;
-}
-.menu {
-  display: flex;
-  margin-top: 6rem;
-  margin-left: 45rem;
-}
-
-.menuButton {
-  margin-left: 10px;
-  padding: 5px 10px;
-  color: rgb(23, 19, 19);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  justify-content: end;
+  padding-right: 50px;
+  padding-bottom: 25px;
 }

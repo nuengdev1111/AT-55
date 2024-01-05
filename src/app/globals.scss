@@ -31,9 +31,41 @@
   width: 16px;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-}
+
+
+
+// body::before {
+//   content: "";
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   height: 100%;
+//   width: 150px; /* ความกว้างของแถบ */
+//   background-color: #92c1e0; /* สีของแถบ */
+// }
+
+// /* แถบด้านขวา */
+// body::after {
+//   content: "";
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   height: 100%;
+//   width: 150px; /* ความกว้างของแถบ */
+//   background-color: #86badd; /* สีของแถบ */
+// }
+// body {
+//   font-family: "Roboto", sans-serif;
+//   width: 100%;
+//   height: 100vh;
+//   background: linear-gradient(
+//     to left,
+//     pink 0%,
+//     pink 50%,
+//     paleturquoise 50%,
+//     paleturquoise 100%
+//   );
+// }
 
 
 table, th, td {

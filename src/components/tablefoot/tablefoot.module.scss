@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    position: absolute;
+    bottom: -3520px;
+    gap: 50px;
+    margin-left: -182px;
+}
+
+.content2 {
+    display: flex;
+    position: absolute;
+    margin-left: -190px;
+    bottom: -3490px;
+    width: 20%;
+}
+
+.text1 {
+    // flex justify-center font-bold translate-y-[-90]
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+    justify-content: center;
+    bottom: -3270px;
+    margin-left: 189px;
+}

@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       >
         <ThemeRegistry>
           {children}
-          <FooterForm />
+          {/* <FooterForm /> */}
         </ThemeRegistry>
       </body>
     </html>

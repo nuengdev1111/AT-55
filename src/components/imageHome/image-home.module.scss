@@ -1,23 +1,7 @@
-
-.mainBox {
-position: relative;
-}
-
-
 .img {
-  // width: 100%;
-  // height: auto;
-}
-
-.imgHome {
-  right: 0;
-  position: absolute;
-  top: 64%;
-  z-index: 999;
-}
-
-.boxSidebar {
-  padding-top: 250px;
+    width: 100%;
+    // max-width: 700px;
+    height: auto;
 }
 // .overlay {
 //     position: absolute;
@@ -31,30 +15,35 @@ position: relative;
 //     padding: 2%;
 //   }
 
-.boxBanner {
-    position: relative;
-}
+// .banner {
+//     position: absolute;
+//     display: flex;
+//     height: 80%;
+//     width: 100%;
+//     margin-left: -189px;
+//     // padding: -4%;
+//     // margin-right: 128px;
+// }
 
 // .lotban {
-//     position: relative;
-//     z-index: 20;
-//     display: flex;
-//     margin-right: -10px;
-//     left: 800px;
-//     bottom: -400px;
+
 // }
   
-//   @media (max-width: 1600px) {
-//     .overlay {
-//         top: 2%;
-//         left: 9%;
-//         width: 20%;
-//         height: 10%;
-//         padding: 5%;
-//       flex-direction: absolute;
-//     }
-//   }
+  @media (max-width: 915px) {
+    .img {
+        // top: 2%;
+        // left: 9%;
+        margin-left: 530px;
+        width: 35%;
+        height: auto;
+        // padding-bottom: -112px;
+        // height: 10%;
+        // padding: -25%;
+    //   flex-direction: absolute;
+    }
+  }
 
+ 
 //   @media (max-width: 1140px) {
 //     .overlay {
 //         top: 10%;
@@ -66,7 +55,16 @@ position: relative;
 //     }
 //   }
 
-
+//   @media (max-width: 768px) {
+//     .overlay {
+//         top: 20%;
+//         left: 1%;
+//         width: 20%;
+//         height: 10%;
+//         padding: 5%;
+//       flex-direction: absolute;
+//     }
+//   }
   
 //   @media (max-width: 480px) {
 //     .overlay {
@@ -79,15 +77,10 @@ position: relative;
 //     }
 //   }
 
-  .logo{
-    position: absolute;
-    z-index: 9999;
-    top: 25px;
-    left: 25px;
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-  }
+//   .logo{
+//     width: 200px;
+//     height: 200px;
+//   }
 
 //   @media (max-width: 1600px) {
 //     .logo {
@@ -130,30 +123,3 @@ position: relative;
 //     color: white;
 //     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 //   }
-
-
-
-
-/* Add this CSS to your existing stylesheet or create a new one */
-
-/* Apply styles for screens with a maximum width of 600px */
-@media only screen and (max-width: 600px) {
-  .mySwiper {
-    /* Adjust styles for the Swiper component on smaller screens */
-  }
-
-  .styled.img {
-    /* Adjust styles for images within the Swiper component on smaller screens */
-    width: 1700px;
-  }
-
-  .styled.logo {
-    /* Adjust styles for the logo on smaller screens */
-  }
-
-  .styled.imgHome {
-    /* Adjust styles for the ImageHome component on smaller screens */
-  }
-}
-
-/* Add more media queries as needed for other screen sizes */

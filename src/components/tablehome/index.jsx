@@ -87,57 +87,45 @@ export default function LoginForm({ data }) {
 
 
   return (
-    <Box className="mt-4 flex justify-center translate-x-[7rem] translate-y-[-75.9rem]">
-      <Card variant="outlined" >
-      {/* <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxWidth: 800, width: "100%" }}> */}
-        {/* <div className="pb-9">
-            <Breadcrumb menu={menu} />
-        </div> */}
-        <div className="pb-14">
+    <Box className="mt-4 flex justify-center pb-9">
+    <Card variant="outlined" className="w-full md:max-w-2xl">
+      <div className="pb-14">
         <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200">
-        {/* <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}> */}
-        {/* <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}> */}
-            <CardContent className="bg-gradient-to-r from-white-200 via-lightblue-200 to-blue-200">
-                <div className="flex">
-                    <img  src="/logoeservice.webp"/>
-                    {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    Word of the Day
-                    </Typography> */}
-                    <Typography variant="h6" component="div">
-                        ช่วยลดการแพร่ระบาดของ COVID-19..
-                    </Typography>
-                    {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                    adjective
-                    </Typography>
-                    <Typography variant="body2">
-                    well meaning and kindly.
-                    <br />
-                    {'"a benevolent smile"'}
-                    </Typography> */}
-                </div>
-                <Typography variant="h5" component="div">
-                    ยินดีต้อนรับเข้าสู่ One Stop Service
+          <CardContent className={styles.card1}>
+            <div className="flex flex-col md:flex-row items-center md:items-start">
+              <img src="/logoeservice.webp" className="mb-4 md:mb-0 md:mr-4" />
+              <div className="flex flex-col">
+                <Typography variant="h6" component="div">
+                  ช่วยลดการแพร่ระบาดของ COVID-19..
                 </Typography>
-                <br />
-                <Typography className="pb-5" variant="h8" component="div">
-                    ครบทุกงานบริการประชาชน สะดวกรวดเร็วตลอด 24 ชม.
+                <Typography variant="h5" component="div" className="mt-2">
+                  ยินดีต้อนรับเข้าสู่ One Stop Service
                 </Typography>
-                <div className="pb-9">
-                    <button class="bg-amber-300 text-white font-bold py-2 px-4 rounded">
-                        บริการยื่นคำร้องออนไลน์
-                    </button>
+                <Typography variant="h8" component="div" className="mt-2">
+                  ครบทุกงานบริการประชาชน สะดวกรวดเร็วตลอด 24 ชม.
+                </Typography>
+                <div className="mt-4">
+                  <button className="bg-amber-300 text-white font-bold py-2 px-4 rounded">
+                    บริการยื่นคำร้องออนไลน์
+                  </button>
                 </div>
-                <div className="flex justify-between">
-                    <Typography className="pb-5" variant="h8" component="div">
-                        บริการยื่นคำร้องออนไลน์รูปแบบใหม่
-                    </Typography>
-                    <img style={{height: 104, width: 190}} src="/service.webp"/>
-                </div>
-            </CardContent>  
-            </Card>
-        </div>
-        <img src="/ss.jpg"/>
-      </Card>
-    </Box>
+              </div>
+            </div>
+            <div className="flex justify-between mt-4 md:mt-0">
+              <Typography variant="h8" component="div">
+                บริการยื่นคำร้องออนไลน์รูปแบบใหม่
+              </Typography>
+              <img
+                style={{ height: 104, width: 190 }}
+                src="/service.webp"
+                className="hidden md:block"
+              />
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+      <img src="/ss.jpg" className="w-full" />
+    </Card>
+  </Box>
   );
 }

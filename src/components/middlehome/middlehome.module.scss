@@ -1,6 +1,29 @@
-.image{
-    height: 700px;
-    width: 1900px;
-    margin: auto auto;
+// .image{
+//     height: 700px;
+//     width: 1900px;
+//     margin: auto auto;
+//     display: flex;
+// }
+
+.eservice {
     display: flex;
+    position: absolute;
+    margin-left: -39px;
+    bottom: -2150px;
+}
+
+.serimg {
+    // font-size: 49px;
+    height: auto;
+    width: 100%;
+}
+
+.fonte {
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 317px;
+    bottom: -2140px;
 }

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 // import { redirect } from "next/navigation";
-import styled from "./pool.module.scss";
+import styled from "./poolgrid.module.scss";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { Container } from "@mui/material";
@@ -25,7 +25,7 @@ export default function LoginForm({ data }) {
 
   return (
     <Box className="" sx={{ flexGrow: 1 }}>
-    <Grid container spacing={4}>
+    <Grid container rowSpacing={{ xs: 1, sm: 2, md: 2 }} columnSpacing={{ xs: 1, sm: 2, md: 6 }}>
       <Grid item xs={12} md={6}>
         <div className={styled.allcard}>
           <div className="grid grid-cols-1 mx-auto gap-6">

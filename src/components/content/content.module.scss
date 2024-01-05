@@ -1,6 +1,150 @@
-.image{
-    height: 700px;
-    width: 1900px;
-    margin: auto auto;
+// .image{
+//     height: 700px;
+//     width: 1900px;
+//     margin: auto auto;
+//     display: flex;
+// }
+
+
+.contentall {
+    // display: flex;
+    position: absolute;
+    margin-left: -165px;
+    bottom: -3042px;
+    width: 63%;
+}
+
+
+.img1 {
     display: flex;
+    position: absolute;
+    margin-left: 470px;
+}
+
+.content2 {
+    display: flex;
+    position: absolute;
+    bottom: 285px;
+    margin-left: 600px;
+}
+.img2 {
+    display: flex;
+    position: absolute;
+    bottom: 265px;
+    margin-left: 470px;
+}
+
+.content3 {
+    display: flex;
+    position: absolute;
+    bottom: 160px;
+    margin-left: 600px;
+}
+.img3 {
+    display: flex;
+    position: absolute;
+    margin-left: 470px;
+}
+
+.content4 {
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    margin-left: 600px;
+}
+.img4 {
+    display: flex;
+    position: absolute;
+    margin-left: 470px;
+}
+.content5 {
+    display: flex;
+    position: absolute;
+    bottom: 410px;
+    margin-left: 120px;
+}
+.img5 {
+    display: flex;
+    position: absolute;
+    margin-left: 470px;
+}
+.content6 {
+    display: flex;
+    position: absolute;
+    bottom: 300px;
+    margin-left: 120px;
+}
+.img6 {
+    display: flex;
+    position: absolute;
+    margin-left: 470px;
+}
+.content7 {
+    display: flex;
+    position: absolute;
+    bottom: 176px;
+    margin-left: 120px;
+}
+.img7 {
+    display: flex;
+    position: absolute;
+    margin-left: 470px;
+}
+.content8 {
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+    margin-left: 120px;
+}
+.img8 {
+    display: flex;
+    position: absolute;
+    margin-left: 471px;
+}
+
+.content1 {
+    display: flex;
+    position: absolute;
+    // bottom: 190px;
+    transform: translateY(-52px);
+    margin-left: 600px;
+}
+.img1 {
+    display: flex;
+    position: absolute;
+    margin-left: 40px;
+}
+
+.content1 {
+    display: flex;
+    position: absolute;
+    bottom: 345px;
+    margin-left: 166px;
+}
+
+
+.header1 {
+    // transform: translateX(130px);
+}
+
+.stack1 {
+    display: flex;
+    position: absolute;
+    bottom: -15px;
+    // margin-right: 180px;
+    // transform: translateX(320px);
+}
+
+// .stack1 {
+//     display: flex;
+//     position: absolute;
+//     margin-left: 80px;
+// }
+
+.stack2 {
+    display: flex;
+    position: absolute;
+    bottom: -16px;
+    // margin-right: 180px;
+    // transform: translateX(740px);
 }
