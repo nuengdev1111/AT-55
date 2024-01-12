@@ -5,3 +5,29 @@
     bottom: -4590px;
     margin-left: 240px;
 }
+
+.menuone {
+    // "translate-x-[-20.4rem] font-bold"
+    font-weight: bold;
+    transform: translate(-20.4rem, -25rem);
+}
+.menutwo {
+    // "translate-x-[-20.4rem] font-bold"
+    font-weight: bold;
+    transform: translate(-20.4rem, -25rem);
+}
+
+.imgone {
+    height: 237px;
+    width: 347px;
+    transform: translate(-325px, -380px);
+    // style={{height: 237, width: 347, transform: "translateX(-325px)"}}
+}
+
+
+.imgtwo {
+    height: 237px;
+    width: 347px;
+    transform: translate(-325px, -380px);
+    // style={{height: 237, width: 347, transform: "translateX(-325px)"}}
+}

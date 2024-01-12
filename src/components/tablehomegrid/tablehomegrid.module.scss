@@ -10,6 +10,10 @@
 }
 
 
+.logocard2 {
+    transform: translate(10px, 17px);
+}
+
 .card2 {
     width: 100%;
 }
@@ -33,6 +37,128 @@
     //     padding: 5%;
     //   flex-direction: absolute;
     // }
+  }
+
+
+
+
+
+
+  @media (max-width: 600px) {
+    .card1 {
+        background: linear-gradient(to right, #a5b4ff, #b291ff, #87c1ff);
+        height: 500px;
+        width: 100%;
+    }
+
+
+    .textunder {
+        font-size: 30px;
+        transform: translate(5px, 120px);
+    }
+
+    .yellow {
+        width: 100%;
+        font-size: 22px;
+        transform: translate(4px, 100px);
+    }
+
+
+    .buttonyellow {
+        background-color: #FFC107; /* Amber color */
+        color: #ffffff; /* White text color */
+        font-weight: bold;
+        width: 290px;
+        padding: 10px 16px; /* Adjust padding as needed */
+        border-radius: 8px; /* Adjust border-radius as needed */
+    }
+    
+
+
+    .img2 {
+        width: 978px;
+    }
+
+    .movecard {
+        transform: translate(-167px, 1140px);
+        width: 200%;
+    }
+
+    .card2 {
+        width: 240rem;
+        // transform: translate(70px);
+    }
+  }
+
+
+
+  @media (max-width: 730px) {
+    .cardmain {
+        width: 90%;
+    }
+
+
+    .card1 {
+        background: linear-gradient(to right, #a5b4ff, #b291ff, #87c1ff);
+        height: 450px;
+        width: 100%;
+    }
+
+
+    .textunder {
+        font-size: 25px;
+        transform: translate(5px, 120px);
+    }
+
+    .yellow {
+        width: 100%;
+        font-size: 22px;
+        transform: translate(4px, 100px);
+    }
+
+
+    .textbott {
+        font-size: 20px;
+    }
+
+
+    .logocard2 {
+        width: 190px;
+        transform: translate(10px, 100px);
+    }
+
+
+    .cardmain {
+        transform: translate(140px);
+    }
+    
+
+
+    .buttonyellow {
+        background-color: #FFC107; /* Amber color */
+        color: #ffffff; /* White text color */
+        font-weight: bold;
+        width: 290px;
+        padding: 10px 16px; /* Adjust padding as needed */
+        border-radius: 8px; /* Adjust border-radius as needed */
+    }
+    
+
+
+    .img2 {
+        width: 747px;
+        height: 400px;
+    }
+
+    .movecard {
+        transform: translate(-47px, 1140px);
+        width: 200%;
+    }
+
+    .card2 {
+        width: 260rem;
+        // transform: translate(70px);
+    }
   }
 
 
@@ -65,4 +191,48 @@
     //     padding: 5%;
     //   flex-direction: absolute;
     // }
+  }
+
+
+
+@media (max-width: 539px) {
+    .cardmain {
+        transform: translate(132px, -1279px);
+        // margin-left: 200px;
+        // transform: translateX(270px);
+        // top: 2%;
+        // transform: translateY(-1270px);
+        // left: 9%;
+        // margin-left: 74px;
+        width: 900px;
+        // height: auto;s
+        // height: 10%;
+        // padding: 5%;
+    //   flex-direction: absolute;
+    }
+    .card1 {
+        // background: linear-gradient(to right, #a5b4ff, #b291ff, #87c1ff);
+        height: 500px;
+        // width: 400px;
+    }
+
+    .logocard2 {
+        height: 150px;
+        width: 220px;
+        transform: translate(14px, 120px);
+    }
+    
+    // .img {
+    //     top: 2%;
+    //     left: 9%;
+    //     width: 20%;
+    //     height: 10%;
+    //     padding: 5%;
+    //   flex-direction: absolute;
+    // }
+
+    .img2 {
+        width: 898px;
+        height: 450px;
+    }
   }

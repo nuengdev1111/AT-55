@@ -9,6 +9,10 @@ position: relative;
   // height: auto;
 }
 
+.imgres {
+
+}
+
 .imgHome {
   right: 0;
   position: absolute;
@@ -55,16 +59,85 @@ position: relative;
 //     }
 //   }
 
-//   @media (max-width: 1140px) {
-//     .overlay {
-//         top: 10%;
-//         left: -2%;
-//         width: 20%;
-//         height: 10%;
-//         padding: 5%;
-//       flex-direction: absolute;
-//     }
-//   }
+  @media (max-width: 720px) {
+    .img {
+        // width: 3200px;
+    }
+
+    .imgres {
+      transform: translateX(1px);
+      height: auto;
+      width: 767px;
+    }
+  }
+
+
+
+  @media (max-width: 770px) {
+    .img {
+        // width: 3200px;
+    }
+
+    .imgres {
+      transform: translateX(1px);
+      height: auto;
+      width: 857px;
+    }
+  }
+
+
+  @media (max-width: 1100px) {
+    .img {
+        // width: 3200px;
+    }
+
+    .imgres {
+      transform: translateX(9px);
+      height: auto;
+      width: 1110px;
+    }
+  }
+
+
+  @media (max-width: 975px) {
+    .img {
+        // width: 3200px;
+    }
+
+    .imgres {
+      transform: translateX(9px);
+      height: auto;
+      width: 1260px;
+    }
+  }
+
+
+
+  @media (max-width: 900px) {
+    .img {
+        // width: 3200px;
+    }
+
+    .imgres {
+      transform: translateX(9px);
+      height: auto;
+      width: 1060px;
+    }
+  }
+
+
+
+  @media (max-width: 605px) {
+    .img {
+        // width: 3200px;
+    }
+
+    .imgres {
+      transform: translateX(5px);
+      height: auto;
+      width: 1160px;
+    }
+  }
 
 
   
@@ -137,23 +210,62 @@ position: relative;
 /* Add this CSS to your existing stylesheet or create a new one */
 
 /* Apply styles for screens with a maximum width of 600px */
-@media only screen and (max-width: 600px) {
-  .mySwiper {
-    /* Adjust styles for the Swiper component on smaller screens */
-  }
+// @media only screen and (max-width: 600px) {
+//   .mySwiper {
+//     /* Adjust styles for the Swiper component on smaller screens */
+//   }
 
-  .styled.img {
-    /* Adjust styles for images within the Swiper component on smaller screens */
-    width: 1700px;
-  }
+//   .styled.img {
+//     /* Adjust styles for images within the Swiper component on smaller screens */
+//     width: 1700px;
+//   }
 
-  .styled.logo {
-    /* Adjust styles for the logo on smaller screens */
-  }
+//   .styled.logo {
+//     /* Adjust styles for the logo on smaller screens */
+//   }
 
-  .styled.imgHome {
-    /* Adjust styles for the ImageHome component on smaller screens */
-  }
-}
+//   .styled.imgHome {
+//     /* Adjust styles for the ImageHome component on smaller screens */
+//   }
+// }
 
 /* Add more media queries as needed for other screen sizes */
+
+
+
+
+
+
+//   @media (max-width: 480px) {
+//     .overlay {
+//       top: 40%;
+//       left: 5%;
+//       width: 20%;
+//       height: 10%;
+//       padding: 5%;
+//       flex-direction: absolute;
+//     }
+//   }
+
+.logo{
+  position: absolute;
+  z-index: 9999;
+  top: 25px;
+  left: 25px;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+
+@media (max-width: 358px) {
+  .img {
+    // width: 3200px;
+}
+
+.imgres {
+  transform: translateX(1px);
+  height: auto;
+  width: 1040px;
+}
+}

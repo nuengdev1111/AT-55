@@ -19,6 +19,7 @@ import {
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
 import { FaSignInAlt } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
+import Grid from '@mui/material/Grid';
 import { FaFacebook } from "react-icons/fa";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -88,58 +89,65 @@ export default function LoginForm({ data }) {
 
   return (
     <Box className="mt-4 flex justify-center pb-9">
-      <Card variant="outlined"  className={styles.cardmain}>
-      {/* <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxWidth: 800, width: "100%" }}> */}
-        {/* <div className="pb-9">
-            <Breadcrumb menu={menu} />
-        </div> */}
-        <div className="pb-14">
-        <Card className={styles.card1}>
-        {/* <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}> */}
-        {/* <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}> */}
-            <CardContent className="">
-                <div className="flex">
-                    <img  src="/logoeservice.webp"/>
-                    {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    Word of the Day
-                    </Typography> */}
-                    <Typography variant="h6" component="div">
-                        ช่วยลดการแพร่ระบาดของ COVID-19..
-                    </Typography>
-                    {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                    adjective
-                    </Typography>
-                    <Typography variant="body2">
-                    well meaning and kindly.
-                    <br />
-                    {'"a benevolent smile"'}
-                    </Typography> */}
-                </div>
-                <Typography variant="h5" component="div">
-                    ยินดีต้อนรับเข้าสู่ One Stop Service
-                </Typography>
-                <br />
-                <Typography className="pb-5" variant="h8" component="div">
-                    ครบทุกงานบริการประชาชน สะดวกรวดเร็วตลอด 24 ชม.
-                </Typography>
-                <div className="pb-9">
-                    <button class="bg-amber-300 text-white font-bold py-2 px-4 rounded">
-                        บริการยื่นคำร้องออนไลน์
-                    </button>
-                </div>
-                <div className="flex justify-between">
-                    <Typography className="pb-5" variant="h8" component="div">
-                        บริการยื่นคำร้องออนไลน์รูปแบบใหม่
-                    </Typography>
-                    <img style={{height: 104, width: 190}} src="/service.webp"/>
-                </div>
-            </CardContent>  
-            </Card>
-        </div>
-        <div className={styles.card2}>
-            <img src="/ss.jpg"/>
-        </div>
-      </Card>
+           <Grid container spacing={4}>
+              <Grid item xs={12} md={12}>
+              {/* <Grid item xs={12} md={12}> */}
+                  <div className={styles.movecard}>
+                    <Card variant="outlined"  className={styles.cardmain}>
+                    {/* <Card variant="outlined" className="translate-x-[-2rem] translate-y-[-8.7rem]" sx={{ maxWidth: 800, width: "100%" }}> */}
+                      {/* <div className="pb-9">
+                          <Breadcrumb menu={menu} />
+                      </div> */}
+                      <div className="pb-14">
+                      <Card className={styles.card1}>
+                      {/* <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}> */}
+                      {/* <Card className="bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200" sx={{ minWidth: 275 }}> */}
+                          <CardContent className={styles.kard1}>
+                              <div className="flex">
+                                  <img  className={styles.logocard} src="/logoeservice.webp"/>
+                                  {/* <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                                  Word of the Day
+                                  </Typography> */}
+                                  <Typography variant="h6" component="div">
+                                      ช่วยลดการแพร่ระบาดของ COVID-19..
+                                  </Typography>
+                                  {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                                  adjective
+                                  </Typography>
+                                  <Typography variant="body2">
+                                  well meaning and kindly.
+                                  <br />
+                                  {'"a benevolent smile"'}
+                                  </Typography> */}
+                              </div>
+                              <Typography variant="h5" component="div">
+                                  ยินดีต้อนรับเข้าสู่ One Stop Service
+                              </Typography>
+                              <br />
+                              <Typography className={styles.textbott} variant="h8" component="div">
+                                  ครบทุกงานบริการประชาชน สะดวกรวดเร็วตลอด 24 ชม.
+                              </Typography>
+                              <div className={styles.yellow}>
+                                  <button class={styles.buttonyellow}>
+                                      บริการยื่นคำร้องออนไลน์
+                                  </button>
+                              </div>
+                              <div className="flex justify-between">
+                                  <Typography className={styles.textunder} variant="h8" component="div">
+                                      บริการยื่นคำร้องออนไลน์รูปแบบใหม่
+                                  </Typography>
+                                  <img className={styles.logocard2} src="/service.webp"/>
+                              </div>
+                          </CardContent>  
+                          </Card>
+                      </div>
+                      <div className={styles.card2}>
+                          <img className={styles.img2} src="/ss.jpg"/>
+                      </div>
+                    </Card>
+                  </div>
+              </Grid>
+            </Grid>
     </Box>
   );
 }

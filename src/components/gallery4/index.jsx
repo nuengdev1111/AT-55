@@ -44,12 +44,12 @@ export default function LoginForm({ data }) {
                   </div> */}
                   {/* <div className="flex justify-center gap-7 translate-x-[9.1rem] translate-y-[-50.4rem]"> */}
                     <div>
-                        <h3 className="translate-x-[-20.4rem] font-bold">Facebook Page</h3>
-                        <img style={{height: 237, width: 347, transform: "translateX(-325px)"}} src="/fbpage.png"/>
+                        <h3 className={styles.menuone}>Facebook Page</h3>
+                        <img className={styles.imgone} src="/fbpage.png"/>
                     </div>
                     <div>
-                        <h3 className="translate-x-[-13.5rem] font-bold">Line Official</h3>
-                        <img style={{height: 237, width: 347, transform: "translateX(-325px)"}} src="/linet.jpg"/>  
+                        <h3 className={styles.menutwo}>Line Official</h3>
+                        <img className={styles.imgtwo} src="/linet.jpg"/>  
                         {/* <p className="translate-x-[-28.7rem]">ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p> */}
                     </div>
                   {/* </div> */}

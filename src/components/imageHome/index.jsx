@@ -11,7 +11,9 @@ export default function ImageHome() {
     return (
       
             <Grid item xs={12} md={6} sm={2}>
-                <Lottie className={styled.img} loop={true} animationData={Child} />
+                <div className={styled.imgmain}>
+                    <Lottie className={styled.img} loop={true} animationData={Child} />
+                </div>
             </Grid>
     
     );

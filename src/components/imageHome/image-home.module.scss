@@ -3,32 +3,7 @@
     // max-width: 700px;
     height: auto;
 }
-// .overlay {
-//     position: absolute;
-//     top: 10%;
-//     left: 16%;
-//     width: 70%;
-//     height: 10%;
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-//     padding: 2%;
-//   }
 
-// .banner {
-//     position: absolute;
-//     display: flex;
-//     height: 80%;
-//     width: 100%;
-//     margin-left: -189px;
-//     // padding: -4%;
-//     // margin-right: 128px;
-// }
-
-// .lotban {
-
-// }
-  
   @media (max-width: 915px) {
     .img {
         // top: 2%;
@@ -44,82 +19,115 @@
   }
 
  
-//   @media (max-width: 1140px) {
-//     .overlay {
-//         top: 10%;
-//         left: -2%;
-//         width: 20%;
-//         height: 10%;
-//         padding: 5%;
-//       flex-direction: absolute;
-//     }
-//   }
 
-//   @media (max-width: 768px) {
-//     .overlay {
-//         top: 20%;
-//         left: 1%;
-//         width: 20%;
-//         height: 10%;
-//         padding: 5%;
-//       flex-direction: absolute;
-//     }
-//   }
-  
-//   @media (max-width: 480px) {
-//     .overlay {
-//       top: 40%;
-//       left: 5%;
-//       width: 20%;
-//       height: 10%;
-//       padding: 5%;
-//       flex-direction: absolute;
-//     }
-//   }
+@media (max-width: 738px) {
 
-//   .logo{
-//     width: 200px;
-//     height: 200px;
-//   }
+  .img {
+    // top: 2%;
+    // left: 9%;
+    margin-left: 530px;
+    width: 31%;
+    height: auto;
+    // padding-bottom: -112px;
+    // height: 10%;
+    // padding: -25%;
+//   flex-direction: absolute;
+}
+}
 
-//   @media (max-width: 1600px) {
-//     .logo {
-//       width: 120px; 
-//     }
-//   }
 
-//   @media (max-width: 1140px) {
-//     .logo {
-//       width: 100px; 
-//     }
-//   }
 
-//   @media (max-width: 768px) {
-//     .logo {
-//       width: 80px; 
-//     }
-//   }
-  
-//   @media (max-width: 480px) {
-//     .logo {
-//         width: 50px; 
-//       }
-//     }
-// .text{
-//     padding-left: 30px;
-//     padding-bottom: 55px;
-//     font-size: larger;
-// }
+@media (max-width: 358px) {
+  .img {
+    // top: 2%;
+    // left: 9%;
+    margin-left: 1040px;
+    transform: translateX(160px);
+    width: 44%;
+    height: auto;
+    // padding-bottom: -112px;
+    // height: 10%;
+    // padding: -25%;
+//   flex-direction: absolute;
+}
+}
 
-// .headingStyle {
-//     font-size: 42px;
-//     font-weight: bold;
-//     color: white;
-//     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-//   }
-//   .headingStyle2 {
-//     font-size: 24px;
-//     font-weight: 600;
-//     color: white;
-//     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-//   }
+
+@media (max-width: 1100px) {
+  .img {
+    // top: 2%;
+    // left: 9%;
+    margin-left: 1040px;
+    transform: translateX(-436px);
+    width: 44%;
+    height: auto;
+    // padding-bottom: -112px;
+    // height: 10%;
+    // padding: -25%;
+//   flex-direction: absolute;
+}
+}
+
+@media (max-width: 975px) {
+  .img {
+    // top: 2%;
+    // left: 9%;
+    margin-left: 1040px;
+    transform: translateX(-256px);
+    width: 44%;
+    height: auto;
+    // padding-bottom: -112px;
+    // height: 10%;
+    // padding: -25%;
+//   flex-direction: absolute;
+}
+}
+
+
+@media (max-width: 720px) {
+  .img {
+    // top: 2%;
+    // left: 9%;
+    margin-left: 1040px;
+    transform: translateX(-176px);
+    width: 44%;
+    height: auto;
+    // padding-bottom: -112px;
+    // height: 10%;
+    // padding: -25%;
+//   flex-direction: absolute;
+}
+}
+
+
+@media (max-width: 650px) {
+  .img {
+    // top: 2%;
+    // left: 9%;
+    margin-left: 1040px;
+    transform: translateX(-146px);
+    width: 44%;
+    height: auto;
+    // padding-bottom: -112px;
+    // height: 10%;
+    // padding: -25%;
+//   flex-direction: absolute;
+}
+}
+
+
+
+@media (max-width: 605px) {
+  .img {
+    // top: 2%;
+    // left: 9%;
+    margin-left: 1040px;
+    transform: translate(-56px, -50px);
+    width: 65%;
+    height: 400px;
+    // padding-bottom: -112px;
+    // height: 10%;
+    // padding: -25%;
+//   flex-direction: absolute;
+}
+}

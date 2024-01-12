@@ -66,56 +66,57 @@ export default function LoginForm({ data }) {
       <div className={styles.contentall}> 
         <div className="flex space-x-[143px]">
           <div>
-              <h2 style={{fontSize: 40}} className="font-bold text-cyan-300 pb-1">ข่าวประชาสัมพันธ์</h2>
-              <br />
-              <h4 style={{fontSize: 26}} className="font-bold text-black ">เทศบาลตำบลแพรกษา</h4>
+              {/* <h2 className={styles.font1}>ข่าวประชาสัมพันธ์</h2> */}
+              <h2 className={styles.font11}>ข่าวประชาสัมพันธ์</h2>
+              {/* <br /> */}
+              {/* <h4 >เทศบาลตำบลแพรกษา</h4> */}
           </div>
           {/* &nbsp;&nbsp;&nbsp;&nbsp; */}
           <div className={styles.header1}>
-            <h2 style={{fontSize: 40}} className="font-bold text-cyan-300 pb-1">ประกาศประชุมสภา</h2>
+            {/* <h2 className={styles.font2}>ประกาศประชุมสภา</h2> */}
             <br />
-            <h4 style={{fontSize: 26}} className="font-bold text-black ">เทศบาลตำบลแพรกษา</h4>
+            <h4 className={styles.font22}>เทศบาลตำบลแพรกษา</h4>
           </div>
         </div>
         <div className="flex gap-40 ">
               <div className="pb-7">
-                  <img style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                  <p className={styles.content5}>ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
+                  <img className={styles.img1} src="/prolit.webp"/>
+                  <p className={styles.content1}>ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
                   </div>  
                     
                     &nbsp;
                     {/* <div> */}
                     <div>
-                  <img className={styles.img1} style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                  <p className={styles.content1}>ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา <br/>สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
+                  <img className={styles.img2} src="/prolit.webp"/>
+                  <p className={styles.content2}>ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา <br/>สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
               </div>
                   </div>
                   <div className="pb-7">
                     <div className="flex gap-40 ">  
-                      <img style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                        <p className={styles.content6}>ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
+                      <img className={styles.img3} src="/prolit.webp"/>
+                        <p className={styles.content3}>ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
                       &nbsp;
-                      <img className={styles.img2} style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                      <p className={styles.content2}>ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา <br/>สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
+                      <img className={styles.img4} src="/prolit.webp"/>
+                      <p className={styles.content4}>ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา <br/>สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
                     </div>
                   </div>
                  
                  <div className="pb-7">
                   <div className="flex gap-40 ">  
-                      <img style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                        <p className={styles.content7}>ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
+                      <img className={styles.img5} src="/prolit.webp"/>
+                        <p className={styles.content5}>ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
                       &nbsp;
-                      <img className={styles.img3} style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                      <p className={styles.content3}>ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา <br/>สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
+                      <img className={styles.img6} src="/prolit.webp"/>
+                      <p className={styles.content6}>ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา <br/>สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
                     </div>
                  </div>
                  
                   <div className="flex gap-40 ">  
-                    <img style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                      <p className={styles.content8}>ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
+                    <img className={styles.img7} src="/prolit.webp"/>
+                      <p className={styles.content7}>ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
                     &nbsp;
-                    <img className={styles.img4} style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                    <p className={styles.content4}>ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
+                    <img className={styles.img8}  src="/prolit.webp"/>
+                    <p className={styles.content8}>ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
               
         </div>
         <Stack  spacing={2} direction="row">

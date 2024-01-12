@@ -21,10 +21,8 @@ export default function LoginForm({ data }) {
         <div className={styled.eservice}> 
         
           {/* <div className=""> */}
-            <div className="ml-[150px] mb-[-176px]">
               <img className={styled.serimg} src="/ban2.jpg"/>
               {/* <img style={{width: 670}} src="/ban2.jpg"/> */}
-            </div>
               {/* <div className="flex gap-3">
                 <img style={{width: 330}} src="/v1.jpg"/>
                 <img style={{width: 330}} src="/v2.jpg"/>
