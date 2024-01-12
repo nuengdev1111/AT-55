@@ -25,3 +25,20 @@
   padding-right: 50px;
   padding-bottom: 25px;
 }
+
+
+.secondfoot {
+  // <div className="translate-y-[3670px]">
+  transform: translateY(3670px);
+}
+
+
+
+@media (max-width: 590px) {
+  .secondfoot {
+    width: 1240px;
+    // <div className="translate-y-[3670px]">
+    // transform: translateY(3670px);
+  }
+  // <div className="translate-y-[3670px]">
+}

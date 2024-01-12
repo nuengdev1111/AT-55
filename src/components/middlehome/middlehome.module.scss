@@ -120,3 +120,20 @@
         transform: translate(50px, 120px);
     }
   }
+
+
+  @media (max-width: 590px) {
+    .fonte {
+        transform: translate(60px, 1740px);
+    }
+
+    .serimg {
+        width: 100%;
+        transform: translate(-164px, 1290px);
+    }
+
+    .eservice {
+        width: 145%;
+        transform: translate(182px, 600px);
+    }
+  }

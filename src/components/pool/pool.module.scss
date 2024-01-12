@@ -2822,317 +2822,326 @@
 
 
 
-//   @media (max-width: 358px) {
+  @media (max-width: 590px) {
 
-//     .card1 {
-//         display: flex;
-//         width: 47rem;
-//         // position: absolute;
-//         // height: auto;
-//         // bottom: -930px;
-//         // margin-left: -61px;
-//     }
+    .card1 {
+        display: flex;
+        width: 47rem;
+        // position: absolute;
+        // height: auto;
+        // bottom: -930px;
+        // margin-left: -61px;
+    }
     
-//     .pool1 {
-//         transform: translate(220px, -172px);
-//         height: 170px;
-//         width: 90%;
-//     }
-//     .pool2 {
-//         transform: translate(370px, -140px);
-//         height: 140px;
-//         width: 90%;
-//     }
-//     .pool3 {
-//         transform: translate(218px, -252px);
-//         height: 140px;
-//         width: 90%;
-//     }
-//     .pool4 {
-//         transform: translate(220px, -295px);
-//         height: 140px;
-//         width: 90%;
-//     }
-//     .pool5 {
-//         transform: translate(214px, -337px);
-//         height: 140px;
-//         width: 90%;
-//     }
-//     .pool6 {
-//         transform: translate(211px, -360px);
-//         height: 140px;
-//         width: 90%;
-//     }
-//     .pool7 {
-//         transform: translate(209px, -395px);
-//         height: 140px;
-//         width: 90%;
-//     }
-//     .pool8 {
-//         transform: translate(360px, -412px);
-//         height: 140px;
-//         width: 90%;
-//     }
+    .pool1 {
+        transform: translate(220px, -172px);
+        height: 240px;
+        width: 90%;
+    }
+    .pool2 {
+        transform: translate(370px, -140px);
+        height: 240px;
+        width: 90%;
+    }
+    .pool3 {
+        transform: translate(218px, -252px);
+        height: 240px;
+        width: 90%;
+    }
+    .pool4 {
+        transform: translate(220px, -295px);
+        height: 240px;
+        width: 90%;
+    }
+    .pool5 {
+        transform: translate(214px, -337px);
+        height: 240px;
+        width: 90%;
+    }
+    .pool6 {
+        transform: translate(211px, -360px);
+        height: 240px;
+        width: 90%;
+    }
+    .pool7 {
+        transform: translate(209px, -395px);
+        height: 240px;
+        width: 90%;
+    }
+    .pool8 {
+        transform: translate(330px, -412px);
+        height: 240px;
+        width: 90%;
+    }
 
 
-//     .ico1 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         width: 20%;
-//         bottom: -173px;
-//         margin-left: 216px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 7%;
-//     }
+    .ico1 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        width: 20%;
+        bottom: -173px;
+        margin-left: 216px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 7%;
+    }
     
-//     .font1 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         font-weight: bold;
-//         font-size: 24px;
-//         bottom: -194px;
-//         width: 60%;
-//         margin-left: 301px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 10%;
-//     }
-//     .card2 {
-//         display: flex;
-//     width: 47rem;
-//         transform: translate(-145px,-75px);
-//         // position: absolute;
-//         // height: auto;
-//         // bottom: -930px;
-//         // margin-left: -61px;
-//     }
+    .font1 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        font-weight: bold;
+        font-size: 24px;
+        bottom: -194px;
+        width: 60%;
+        margin-left: 301px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 10%;
+    }
+    .card2 {
+        display: flex;
+    width: 47rem;
+        transform: translate(-145px,-75px);
+        // position: absolute;
+        // height: auto;
+        // bottom: -930px;
+        // margin-left: -61px;
+    }
     
-//     .ico2 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         bottom: -360px;
-//         margin-left: 374px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 7%;
-//     }
+    .ico2 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        bottom: -360px;
+        margin-left: 374px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 7%;
+    }
     
-//     .font2 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         font-weight: bold;
-//         width: 20%;
-//         bottom: -379px;
-//         margin-left: 445px;
-//         // bottom: -400px;
-//         font-size: 14px;
-//         // transform: translateX(-350px);
-//         height: 10%;
-//     }
-//     .card3 {
-//         display: flex;
-//     width: 47rem;
-//         // position: absolute;
-//         // height: auto;
-//         // bottom: -930px;
-//         // margin-left: -61px;
-//     }
+    .font2 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        font-weight: bold;
+        width: 20%;
+        bottom: -379px;
+        margin-left: 445px;
+        // bottom: -400px;
+        font-size: 14px;
+        // transform: translateX(-350px);
+        height: 10%;
+    }
+    .card3 {
+        display: flex;
+    width: 47rem;
+        // position: absolute;
+        // height: auto;
+        // bottom: -930px;
+        // margin-left: -61px;
+    }
     
-//     .ico3 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         width: 6%;
-//         bottom: -516px;
-//         margin-left: 154px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 9%;
-//     }
+    .ico3 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        width: 6%;
+        bottom: -516px;
+        margin-left: 154px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 9%;
+    }
     
-//     .font3 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         font-weight: bold;
-//         bottom: -555px;
-//         margin-left: 208px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 10%;
-//     }
-//     .card4 {
-//         display: flex;
-//     width: 47rem;
-//         // position: absolute;
-//         // height: auto;
-//         // bottom: -930px;
-//         // margin-left: -61px;
-//     }
+    .font3 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        font-weight: bold;
+        bottom: -555px;
+        margin-left: 208px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 10%;
+    }
+    .card4 {
+        display: flex;
+    width: 47rem;
+        // position: absolute;
+        // height: auto;
+        // bottom: -930px;
+        // margin-left: -61px;
+    }
     
-//     .ico4 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         width: 6%;
-//         bottom: -524px;
-//         margin-left: 380px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 9%;
-//     }
+    .ico4 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        width: 6%;
+        bottom: -524px;
+        margin-left: 380px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 9%;
+    }
     
-//     .font4 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         font-weight: bold;
-//         bottom: -545px;
-//         margin-left: 431px;
-//         width: 22%;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 10%;
-//     }
-//     .card5 {
-//         display: flex;
-//     width: 47rem;
-//         // position: absolute;
-//         // height: auto;
-//         // bottom: -930px;
-//         // margin-left: -61px;
-//     }
+    .font4 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        font-weight: bold;
+        bottom: -545px;
+        margin-left: 431px;
+        width: 22%;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 10%;
+    }
+    .card5 {
+        display: flex;
+    width: 47rem;
+        // position: absolute;
+        // height: auto;
+        // bottom: -930px;
+        // margin-left: -61px;
+    }
     
-//     .ico5 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         bottom: -652px;
-//         width: 7%;
-//         margin-left: 153px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 7%;
-//     }
+    .ico5 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        bottom: -652px;
+        width: 7%;
+        margin-left: 153px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 7%;
+    }
     
-//     .font5 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         font-weight: bold;
-//         bottom: -680px;
-//         margin-left: 206px;
-//         width: 21%;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 9%;
-//     }
-//     .card6 {
-//         display: flex;
-//     width: 47rem;
-//         // position: absolute;
-//         // height: auto;
-//         // bottom: -930px;
-//         // margin-left: -61px;
-//     }
+    .font5 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        font-weight: bold;
+        bottom: -680px;
+        margin-left: 206px;
+        width: 21%;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 9%;
+    }
+    .card6 {
+        display: flex;
+    width: 47rem;
+        // position: absolute;
+        // height: auto;
+        // bottom: -930px;
+        // margin-left: -61px;
+    }
     
-//     .ico6 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         bottom: -651px;
-//         width: 7%;
-//         margin-left: 381px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 6%;
-//     }
+    .ico6 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        bottom: -651px;
+        width: 7%;
+        margin-left: 381px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 6%;
+    }
     
-//     .font6 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         font-weight: bold;
-//         bottom: -700px;
-//         width: 28%;
-//         margin-left: 429px;
-//         font-size: 13px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 10%;
-//     }
-//     .card7 {
-//         display: flex;
-//     width: 47rem;
-//         // position: absolute;
-//         // height: auto;
-//         // bottom: -930px;
-//         // margin-left: -61px;
-//     }
+    .font6 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        font-weight: bold;
+        bottom: -700px;
+        width: 28%;
+        margin-left: 429px;
+        font-size: 13px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 10%;
+    }
+    .card7 {
+        display: flex;
+    width: 47rem;
+        // position: absolute;
+        // height: auto;
+        // bottom: -930px;
+        // margin-left: -61px;
+    }
     
-//     .ico7 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         width: 6%;
-//         bottom: -797px;
-//         margin-left: 153px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 7%;
-//     }
+    .ico7 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        width: 6%;
+        bottom: -797px;
+        margin-left: 153px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 7%;
+    }
     
-//     .font7 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         font-weight: bold;
-//         width: 19%;
-//         font-size: 13px;
-//         bottom: -820px;
-//         margin-left: 205px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 10%;
-//     }
-//     .card8 {
-//         display: flex;
-//     width: 47rem;
-//         // position: absolute;
-//         // height: auto;
-//         // bottom: -930px;
-//         // margin-left: -61px;
-//     }
+    .font7 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        font-weight: bold;
+        width: 19%;
+        font-size: 13px;
+        bottom: -820px;
+        margin-left: 205px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 10%;
+    }
+    .card8 {
+        display: flex;
+    width: 47rem;
+    transform: translate(-125px);
+        // position: absolute;
+        // height: auto;
+        // bottom: -930px;
+        // margin-left: -61px;
+    }
     
-//     .ico8 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         bottom: -795px;
-//         width: 6%;
-//         margin-left: 383px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 7%;
-//     }
+    .ico8 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        bottom: -795px;
+        width: 6%;
+        margin-left: 383px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 7%;
+    }
     
-//     .font8 {
-//         display: flex;
-//         position: absolute;
-//         // height: auto;
-//         font-weight: bold;
-//         bottom: -840px;
-//         width: 7%;
-//         font-size: 14px;
-//         margin-left: 424px;
-//         // bottom: -400px;
-//         // transform: translateX(-350px);
-//         height: 10%;
-//     }
+    .font8 {
+        display: flex;
+        position: absolute;
+        // height: auto;
+        font-weight: bold;
+        bottom: -840px;
+        width: 7%;
+        font-size: 14px;
+        margin-left: 424px;
+        // bottom: -400px;
+        // transform: translateX(-350px);
+        height: 10%;
+    }
 
-//   }
+    .allcard {
+        transform: translate(5px, 150px);
+    } 
+
+    .allcard2 {
+        transform: translate(5px, 190px);
+    }
+
+  }

@@ -8,7 +8,8 @@ import { Box, Grid } from '@mui/material';
 const Footer2Bangsaotong = () => {
   return (
     <>
-      <div className="translate-y-[3670px]">
+      <div className={styles.secondfoot}>
+      {/* <div className="translate-y-[3670px]"> */}
       {/* <div className="w-[1433px] translate-x-[-145px] translate-y-[4537px]"> */}
                       <Grid className={styles.bg} container spacing={2}>
 

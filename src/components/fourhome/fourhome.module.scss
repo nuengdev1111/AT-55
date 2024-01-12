@@ -27,5 +27,16 @@
 //   box-shadow: green;
   padding-left: 1rem;
   border-radius: 9999px; /* A high value for rounded-full effect */
-  transform: translateY(1871px);
+  transform: translateY(1751px);
+}
+
+
+@media (max-width: 590px) {
+  .mainbutton {
+    transform: translate(260px, 2190px);
+  }
+
+  .slider1 {
+    transform: translate(490px, 1850px);
+  }
 }

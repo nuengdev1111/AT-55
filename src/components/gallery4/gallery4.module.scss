@@ -31,3 +31,12 @@
     transform: translate(-325px, -380px);
     // style={{height: 237, width: 347, transform: "translateX(-325px)"}}
 }
+
+
+
+@media (max-width: 590px) {
+    .allgallery {
+        width: 610px;
+        transform: translate(370px, 970px);
+    }
+}

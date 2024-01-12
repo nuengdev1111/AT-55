@@ -1,7 +1,7 @@
 .content {
     display: flex;
     position: absolute;
-    bottom: -3520px;
+    bottom: -3180px;
     gap: 50px;
     margin-left: -182px;
 }
@@ -10,7 +10,7 @@
     display: flex;
     position: absolute;
     margin-left: -190px;
-    bottom: -3490px;
+    bottom: -3190px;
     width: 20%;
 }
 
@@ -20,6 +20,23 @@
     position: absolute;
     font-weight: bold;
     justify-content: center;
-    bottom: -3270px;
+    bottom: -2940px;
     margin-left: 189px;
+}
+
+
+@media (max-width: 590px) {
+    .content {
+        transform: translate(380px, 1250px);
+    }
+
+    .text1 {
+        transform: translate(170px, 1290px);
+    }
+
+
+    .content2 {
+        transform: translate(470px, 1300px);
+    }
+
 }
