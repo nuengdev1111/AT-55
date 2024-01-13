@@ -23,53 +23,24 @@ position: relative;
 .boxSidebar {
   padding-top: 250px;
 }
-// .overlay {
-//     position: absolute;
-//     top: 10%;
-//     left: 16%;
-//     width: 70%;
-//     height: 10%;
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-//     padding: 2%;
-//   }
+
 
 .boxBanner {
     position: relative;
 }
 
-// .lotban {
-//     position: relative;
-//     z-index: 20;
-//     display: flex;
-//     margin-right: -10px;
-//     left: 800px;
-//     bottom: -400px;
-// }
-  
-//   @media (max-width: 1600px) {
-//     .overlay {
-//         top: 2%;
-//         left: 9%;
-//         width: 20%;
-//         height: 10%;
-//         padding: 5%;
-//       flex-direction: absolute;
-//     }
-//   }
 
-  @media (max-width: 720px) {
-    .img {
-        // width: 3200px;
-    }
+  // @media (max-width: 720px) {
+  //   .img {
+  //       // width: 3200px;
+  //   }
 
-    .imgres {
-      transform: translateX(1px);
-      height: auto;
-      width: 767px;
-    }
-  }
+  //   .imgres {
+  //     transform: translateX(1px);
+  //     height: auto;
+  //     width: 767px;
+  //   }
+  // }
 
 
 
@@ -113,21 +84,21 @@ position: relative;
 
 
 
-  @media (max-width: 900px) {
-    .img {
-        // width: 3200px;
-    }
+  // @media (max-width: 900px) {
+  //   .img {
+  //       // width: 3200px;
+  //   }
 
-    .imgres {
-      transform: translateX(9px);
-      height: auto;
-      width: 1060px;
-    }
-  }
+  //   .imgres {
+  //     transform: translateX(9px);
+  //     height: auto;
+  //     width: 1060px;
+  //   }
+  // }
 
 
 
-  @media (max-width: 605px) {
+  @media (max-width: 590px) {
     .img {
         // width: 3200px;
     }
@@ -135,7 +106,7 @@ position: relative;
     .imgres {
       transform: translateX(5px);
       height: auto;
-      width: 1160px;
+      width: 1230px;
     }
   }
 
@@ -162,90 +133,6 @@ position: relative;
     height: auto;
   }
 
-//   @media (max-width: 1600px) {
-//     .logo {
-//       width: 120px; 
-//     }
-//   }
-
-//   @media (max-width: 1140px) {
-//     .logo {
-//       width: 100px; 
-//     }
-//   }
-
-//   @media (max-width: 768px) {
-//     .logo {
-//       width: 80px; 
-//     }
-//   }
-  
-//   @media (max-width: 480px) {
-//     .logo {
-//         width: 50px; 
-//       }
-//     }
-// .text{
-//     padding-left: 30px;
-//     padding-bottom: 55px;
-//     font-size: larger;
-// }
-
-// .headingStyle {
-//     font-size: 42px;
-//     font-weight: bold;
-//     color: white;
-//     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-//   }
-//   .headingStyle2 {
-//     font-size: 24px;
-//     font-weight: 600;
-//     color: white;
-//     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-//   }
-
-
-
-
-/* Add this CSS to your existing stylesheet or create a new one */
-
-/* Apply styles for screens with a maximum width of 600px */
-// @media only screen and (max-width: 600px) {
-//   .mySwiper {
-//     /* Adjust styles for the Swiper component on smaller screens */
-//   }
-
-//   .styled.img {
-//     /* Adjust styles for images within the Swiper component on smaller screens */
-//     width: 1700px;
-//   }
-
-//   .styled.logo {
-//     /* Adjust styles for the logo on smaller screens */
-//   }
-
-//   .styled.imgHome {
-//     /* Adjust styles for the ImageHome component on smaller screens */
-//   }
-// }
-
-/* Add more media queries as needed for other screen sizes */
-
-
-
-
-
-
-//   @media (max-width: 480px) {
-//     .overlay {
-//       top: 40%;
-//       left: 5%;
-//       width: 20%;
-//       height: 10%;
-//       padding: 5%;
-//       flex-direction: absolute;
-//     }
-//   }
 
 .logo{
   position: absolute;

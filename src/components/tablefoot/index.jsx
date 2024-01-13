@@ -377,7 +377,7 @@ export default function LoginForm({ data }) {
                                     Word of the Day
                                     </Typography> */}
                                     <img style={{height: 94}} src="/gi1.png"/>
-                                    <Typography className="font-bold" variant="h10" component="div">
+                                    <Typography className={styled.font1} variant="h10" component="div">
                                         สำหรับเจ้าหน้าที่ระบบบริการออนไลน์
                                     </Typography>
                                     {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -407,7 +407,7 @@ export default function LoginForm({ data }) {
                                     Word of the Day
                                     </Typography> */}
                                     <img style={{height: 94}} src="/gi2.png"/>
-                                    <Typography className="font-bold" variant="h10" component="div">
+                                    <Typography className={styled.font2} variant="h10" component="div">
                                         สำหรับเจ้าหน้าที่ระบบ E-Office
                                     </Typography>
                                     {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -436,7 +436,7 @@ export default function LoginForm({ data }) {
                                     Word of the Day
                                     </Typography> */}
                                     <img style={{height: 94}} src="/gi3.png"/>
-                                    <Typography className="font-bold" variant="h10" component="div">
+                                    <Typography className={styled.font3} variant="h10" component="div">
                                     สำหรับเจ้าหน้าที่ระบบการบริหารและพัฒนาทรัพยากรบุคคล
                                     </Typography>
                                     {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -468,7 +468,7 @@ export default function LoginForm({ data }) {
                     Word of the Day
                     </Typography> */}
                     <img style={{height: 94}} src="/gi4.png"/>
-                    <Typography className="font-bold" variant="h10" component="div">
+                    <Typography className={styled.font4} variant="h10" component="div">
                         สำหรับเจ้าหน้าที่จัดการเว็บไซต์
                     </Typography>
                     {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
