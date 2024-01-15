@@ -83,19 +83,24 @@
     }
   }
 
-@media (max-width: 900px) {
-    .buttonmain {
-        width: 180px;
-        transform: translateY(-200px);
-    }
-  }
+// @media (max-width: 900px) {
+//     .buttonmain {
+//         width: 180px;
+//         transform: translateY(-200px);
+//     }
+//   }
 
 
-@media (max-width: 978px) {
+@media (max-width: 990px) {
     .buttonmain {
         width: 220px;
         height: 46px;
         transform: translate(130px, -100px);
+    }
+
+    .cardall2 {
+        transform: translate(30px);
+        width: 190px;
     }
   }
 

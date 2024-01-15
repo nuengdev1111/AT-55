@@ -208,13 +208,13 @@
 //     // transform: translateX(-350px);
 //     height: 10%;
 // }
-// .card8 {
-//     display: flex;
-//     // position: absolute;
-//     // height: auto;
-//     // bottom: -930px;
-//     // margin-left: -61px;
-// }
+.card8 {
+    display: flex;
+    position: absolute;
+    height: auto;
+    bottom: -1730px;
+    margin-left: 1px;
+}
 
 // .ico8 {
 //     display: flex;
@@ -3144,4 +3144,19 @@
         transform: translate(5px, 190px);
     }
 
+  }
+
+
+  @media (max-width: 990px) {
+    .allcard2 {
+        transform: translate(200px);
+        width: 300px;
+    }
+    .allcard {
+        transform: translate(150px);
+        width: 300px;
+    }
+    .pool8 {
+        transform: translate(-4px, -1560px);
+    }
   }
