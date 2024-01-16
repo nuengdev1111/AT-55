@@ -26,5 +26,20 @@
 @media (max-width: 590px) {
     .allfoot {
         width: 1240px;
+        // bottom: 90px;
+        transform: translate(2px, 3900px);
+    }
+}
+
+@media (max-width: 890px) {
+    .allfoot {
+        transform: translate(5px, 3070px);
+    }
+}
+
+
+@media (max-width: 990px) {
+    .allfoot {
+        width: 1259px;
     }
 }

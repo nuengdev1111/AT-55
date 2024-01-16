@@ -592,14 +592,20 @@
 
 
 
+@media (max-width: 890px) {
+    .contentall {
+        transform: translate(52px, -167px);
+    }
+}
 
-@media (max-width: 900px) {
+
+@media (max-width: 990px) {
             
 .contentall {
     // display: flex;
     position: absolute;
-    margin-left: 75px;
-    bottom: -2592px;
+    margin-left: -115px;
+    bottom: -3092px;
     width: 63%;
 }
 
@@ -894,9 +900,16 @@
 }
 
 
+@media (max-width: 790px) {
+    .contentall {
+        transform: translate(55px, -169px);
+    }
+}
+
+
 @media (max-width: 590px) {
 
     .contentall {
-        transform: translate(20px, 1820px);
+        transform: translate(220px, 2080px);
     }
 }

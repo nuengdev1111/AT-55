@@ -19,6 +19,31 @@
 
 @media (max-width: 590px) {
     .googleAll {
-        transform: translate(300px, 1560px);
+        bottom: -6700px;
+        margin-left: 200px;
+        // transform: translateX(160px);
+    }
+}
+
+
+@media (max-width: 790px) {
+    .googleAll {
+        // transform: translate(90px);
+        bottom: -4890px;
+    }
+}
+
+
+@media (max-width: 890px) {
+    .googleAll {
+        margin-left: 17px;
+        bottom: -4900px;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .googleAll {
+        transform: translate(45px);
     }
 }

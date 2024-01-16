@@ -8,7 +8,36 @@
 
 @media (max-width: 590px) {
     .formAll {
-        transform: translate(285px, 1490px);
+        // transform: translate(285px, 1090px);
+        margin-left: 270px;
+        bottom: -6020px;
+    }
+}
+
+
+
+@media (max-width: 790px) {
+    .formAll {
+        // transform: 90px;
+        bottom: -4200px;
+        margin-left: 120px;
+    }
+} 
+
+
+
+@media (max-width: 890px) {
+    .formAll {
+        bottom: -4290px;
+        margin-left: 97px;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+    .formAll {
+        transform: translate(50px);
     }
 }
 

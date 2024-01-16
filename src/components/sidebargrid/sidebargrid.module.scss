@@ -106,11 +106,15 @@
 
 
 
-@media (max-width: 870px) {
-    .buttonmain {
-        width: 220px;
-        height: 46px;
-        transform: translate(80px, -100px);
+@media (max-width: 890px) {
+    // .buttonmain {
+    //     width: 220px;
+    //     height: 46px;
+    //     transform: translate(80px, -10px);
+    // }
+
+    .cardall2 {
+        transform: translate(60px, -70px);
     }
   }
 
@@ -123,10 +127,3 @@
         transform: translate(150px, -152px);
     }
   }
-// @media (max-width: 870px) {
-//     .buttonmain {
-//         width: 220px;
-//         height: 46px;
-//         transform: translate(80px, -100px);
-//     }
-//   }

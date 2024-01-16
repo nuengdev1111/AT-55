@@ -174,40 +174,7 @@ export default function Home() {
 <Box pt="350px">
     <Sidebargrid> 
    
-   
-    
- {/* <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div>
- <div>xxxxxxxxxxxxxxxxxxxxxx</div> */}
+
       <Container>
            <Tablehomegrid />
           <Pool />
@@ -231,26 +198,7 @@ export default function Home() {
 </Box>
 
 
-       
-{/* <Pool/> */}
 
-
-    {/* <Pool />
-          <MiddleH />
-        <Content />
-        <Tablefoot />
-        <Fourhome /> */}
-    
-     
-      
-      
-      {/* <Breadcrumb menu={menu} /> */}
-
-      {/* <Container maxWidth="lg"> */}
-        {/* <LoginForm /> */}
-    {/* </Container> */}
-
-   
 
  </Container>
  {/* <Container> */}

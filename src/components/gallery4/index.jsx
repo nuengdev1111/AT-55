@@ -21,39 +21,18 @@ export default function LoginForm({ data }) {
 
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-      <div className={styles.allgallery}> 
-        {/* <div className="flex">
-         
-        </div> */}
-        {/* <div className="flex gap-40 translate-x-[-0.1rem] translate-y-[-76.8rem]">  
-                    <img style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                      <p className="translate-x-[-8.7rem]">ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
-                    &nbsp;
-                    <img style={{height: 87, width: 107, borderRadius: 12, transform: "translateX(-325px)"}} src="/prolit.webp"/>
-                    <p className="translate-x-[-28.9rem]">ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
+          <Grid item xs={12}>
+              <div className={styles.allgallery}> 
+                  <div className={styles.imageone}>
+                      <h3 className={styles.menuone}>Facebook Page</h3>
+                      <img className={styles.imgone} src="/fbpage.png"/>
                   </div>
-                  <div className="flex gap-40 translate-x-[-0.1rem] translate-y-[-76.2rem]">  
-                    <img style={{height: 87, width: 107, borderRadius: 12}} src="/prolit.webp"/>
-                      <p className="translate-x-[-8.7rem]">ประกาศรายชื่อการสรรหาพนักงานจ้าง 2566</p>
-                    &nbsp;
-                    <img style={{height: 87, width: 107, borderRadius: 12, transform: "translateX(-325px)"}} src="/prolit.webp"/>
-                    <p className="translate-x-[-28.8rem]">ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p>
-                  </div> */}
-                  {/* <div>
-                            
-                  </div> */}
-                  {/* <div className="flex justify-center gap-7 translate-x-[9.1rem] translate-y-[-50.4rem]"> */}
-                    <div>
-                        <h3 className={styles.menuone}>Facebook Page</h3>
-                        <img className={styles.imgone} src="/fbpage.png"/>
-                    </div>
-                    <div>
-                        <h3 className={styles.menutwo}>Line Official</h3>
-                        <img className={styles.imgtwo} src="/linet.jpg"/>  
-                        {/* <p className="translate-x-[-28.7rem]">ระเบียบวาระการประชุมสภาเทศบาลตำบลแพรกษา สมัยสามัญ สมัยที่ 3 ประจำปี พ.ศ.2566 ( ดู 1 ครั้ง )</p> */}
-                    </div>
-                  {/* </div> */}
-      </div>  
+                  <div className={styles.imagetwo}>
+                      <h3 className={styles.menutwo}>Line Official</h3>
+                      <img className={styles.imgtwo} src="/linet.jpg"/>  
+                  </div>
+              </div>  
+            </Grid>
         </Grid>
     </Box>
     // <section>

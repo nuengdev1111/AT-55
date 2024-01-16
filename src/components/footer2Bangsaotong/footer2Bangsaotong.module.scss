@@ -37,8 +37,25 @@
 @media (max-width: 590px) {
   .secondfoot {
     width: 1240px;
+    transform: translate(-10px, 3940px);
     // <div className="translate-y-[3670px]">
     // transform: translateY(3670px);
   }
   // <div className="translate-y-[3670px]">
+}
+
+
+
+@media (max-width: 890px) {
+  .secondfoot {
+    width: 1269px;
+    transform: translate(10px, 3100px);
+  }
+}
+
+
+@media (max-width: 990px) {
+  .secondfoot {
+    width: 1269px;
+  }
 }
