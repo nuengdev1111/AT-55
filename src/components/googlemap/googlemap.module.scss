@@ -42,8 +42,15 @@
 }
 
 
-@media (max-width: 990px) {
+// @media (max-width: 990px) {
+//     .googleAll {
+//         transform: translate(45px);
+//     }
+// }
+
+
+@media (max-width: 1100px) {
     .googleAll {
-        transform: translate(45px);
+        transform: translate(82px, 120px);
     }
 }

@@ -51,87 +51,39 @@ export default function Sidebar({ children }) {
             <Grid container rowSpacing={{ xs: 12, sm: 12, md: 12 }} columnSpacing={{ xs: 1, sm: 2, md: 12 }}>
 
                 <Grid item xs={12} sm={3} sx={{ display: { xs: 'none', sm: 'block' } }}>
-
-                    {/* <Box sx={{ flexGrow: 1 }}>
-             <Grid container spacing={2}>
-             <Grid item xs={3}> */}
                     <div className={styles.cardall2}>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 คณะผู้บริหารและบุคลากร
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(23px)" }} src="/iconbut.webp" /> */}
-                                {/* คณะผู้บริหารและบุคลากร<img style={{ height: 49, width: 48, transform: "translateX(23px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 แผนพัฒนาท้องถิ่น
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(23px)" }} src="/iconbut.webp" /> */}
-                                {/* แผนพัฒนาท้องถิ่น<img style={{ height: 49, width: 48, transform: "translateX(23px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 ข้อมูลพื้นฐาน
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(37px)" }} src="/iconbut.webp" /> */}
-                                {/* ข้อมูลพื้นฐาน<img style={{ height: 49, width: 48, transform: "translateX(37px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 รายงานผลการดำเนินการ
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(24px)" }} src="/iconbut.webp" /> */}
-                                {/* รายงานผลการดำเนินการ<img style={{ height: 49, width: 48, transform: "translateX(24px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 จัดซื้อ-จัดจ้าง
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(36px)" }} src="/iconbut.webp" /> */}
-                                {/* จัดซื้อ-จัดจ้าง<img style={{ height: 49, width: 48, transform: "translateX(36px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 กฏหมายที่เกี่ยวข้อง
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(24px)" }} src="/iconbut.webp" /> */}
-                                {/* กฏหมายที่เกี่ยวข้อง<img style={{ height: 49, width: 48, transform: "translateX(24px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 การควบคุมภายใน
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(25px)" }} src="/iconbut.webp" /> */}
-                                {/* การควบคุมภายใน<img style={{ height: 49, width: 48, transform: "translateX(25px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 คู่มือมาตรฐานการให้บริการ
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(24px)" }} src="/iconbut.webp" /> */}
-                                {/* คู่มือมาตรฐานการให้บริการ<img style={{ height: 49, width: 48, transform: "translateX(24px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 การบริหารทรัพยากรบุคคล
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(24px)" }} src="/iconbut.webp" /> */}
-                                {/* การบริหารทรัพยากรบุคคล<img style={{ height: 49, width: 48, transform: "translateX(24px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 การให้บริการ
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(39px)" }} src="/iconbut.webp" /> */}
-                                {/* การให้บริการ<img style={{ height: 49, width: 48, transform: "translateX(39px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                         <div className={styles.none}>
-                            {/* <Button className={styles.buttonmain} variant="contained" size="medium"> */}
                                 นโยบาย No Gift Policy
-                                {/* <img style={{ height: 49, width: 48, transform: "translateX(22px)" }} src="/iconbut.webp" /> */}
-                                {/* นโยบาย No Gift Policy<img style={{ height: 49, width: 48, transform: "translateX(22px)" }} src="/iconbut.webp" /> */}
-                            {/* </Button> */}
                         </div>
                     </div>
 

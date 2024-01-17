@@ -1,0 +1,44 @@
+.leftCam {
+    position: absolute;
+    z-index: 9999;
+    transform: translate(70px, -240px);
+}
+
+.leftCam2 {
+    transform: translate(1190px, -500px);
+}
+
+.camImg2 {
+    transform: translate(1350px, -340px);
+}
+
+.leftCam2 {
+    transform: translate(1300px, -540px);
+}
+
+
+.animationbox2 {
+    // width: 100px;
+    // height: 100px;
+    // background-color: red;
+    // animation-name: slideRight;
+    // animation-duration: 4s;
+    animation: slideLeft 4s infinite;
+  }
+
+
+
+@keyframes slideLeft {
+    from {
+      // background-color: red;
+      // transform: translateX(0);
+      transform: translate(0px, 0px) rotate(0deg);
+      
+    }
+    to {
+      // background-color: yellow;
+      // transform: translateX(1500px);
+      transform: translate(5px, 30px) rotate(-1deg);
+    }
+  }
+  

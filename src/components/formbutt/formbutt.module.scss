@@ -25,19 +25,8 @@
 } 
 
 
-
-@media (max-width: 890px) {
+@media (max-width: 1100px) {
     .formAll {
-        bottom: -4290px;
-        margin-left: 97px;
+        transform: translate(150px, -70px);
     }
 }
-
-
-
-@media (max-width: 990px) {
-    .formAll {
-        transform: translate(50px);
-    }
-}
-

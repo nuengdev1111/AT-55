@@ -4,6 +4,50 @@
     height: auto;
 }
 
+.carA {
+  height: 200px;
+  width: 400px;
+  transform: translate(-1070px, 240px);
+}
+
+// .animationbox {
+
+// }
+
+.animationbox {
+  // width: 100px;
+  // height: 100px;
+  // background-color: red;
+  // animation-name: slideRight;
+  // animation-duration: 4s;
+  animation: slideRight 4s infinite;
+}
+
+// @keyframes slideRight {
+//   from {
+//     // background-color: red;
+//     transform: translateX(0);
+//   }
+//   to {
+//     // background-color: yellow;
+//     transform: translateX(1500px);
+//   }
+// }
+@keyframes slideRight {
+  from {
+    // background-color: red;
+    transform: translateX(0);
+  }
+  to {
+    // background-color: yellow;
+    transform: translateX(1500px);
+  }
+}
+
+
+
+
+
   @media (max-width: 915px) {
     .img {
         // top: 2%;

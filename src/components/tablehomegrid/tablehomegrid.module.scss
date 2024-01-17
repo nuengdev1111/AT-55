@@ -191,9 +191,10 @@
   }
 
 
-@media (max-width: 990px) {
+
+@media (max-width: 1100px) {
     .movecard {
-        transform: translate(125px);
-        width: 700px;
+        width: 750px;
+        transform: translate(150px, -99px);
     }
 }

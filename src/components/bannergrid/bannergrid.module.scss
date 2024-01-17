@@ -7,11 +7,56 @@ position: relative;
 .img {
   // width: 100%;
   // height: auto;
+  // transform: translate(1px, -140px);
 }
 
 .imgres {
-
+  transform: translate(-1px, 150px);
 }
+
+.mySwiper {
+  transform: translate(1px, -50px);
+}
+
+.logo{
+  position: absolute;
+  z-index: 9999;
+  top: 25px;
+  left: 25px;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.topfonth {
+  position: absolute;
+  z-index: 9999;
+  color: white;
+  transform: translate(190px, -550px);
+}
+
+.topfonten {
+  position: absolute;
+  z-index: 9999;
+  color: white;
+  transform: translate(190px, -510px);
+}
+
+.topheader {
+  position: absolute;
+  z-index: 9999;
+  // display: flex;
+  // position: absolute;
+  // transform: translate(90px, 50px);
+}
+
+.imgCamMain {
+  position: absolute;
+  z-index: 9999;
+  transform: translateY(-90px);
+}
+
+
 
 .imgHome {
   right: 0;
@@ -50,7 +95,7 @@ position: relative;
     }
 
     .imgres {
-      transform: translateX(9px);
+      transform: translateX(1px);
       height: auto;
       width: 1110px;
     }
@@ -71,6 +116,12 @@ position: relative;
 
 
 
+  @media (max-width: 890px) {
+    .imgres {
+      width: 1300px;
+    }
+  }
+
 
 
 
@@ -86,39 +137,6 @@ position: relative;
     }
   }
 
-
-  
-//   @media (max-width: 480px) {
-//     .overlay {
-//       top: 40%;
-//       left: 5%;
-//       width: 20%;
-//       height: 10%;
-//       padding: 5%;
-//       flex-direction: absolute;
-//     }
-//   }
-
-  .logo{
-    position: absolute;
-    z-index: 9999;
-    top: 25px;
-    left: 25px;
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-  }
-
-
-.logo{
-  position: absolute;
-  z-index: 9999;
-  top: 25px;
-  left: 25px;
-  width: 100%;
-  max-width: 150px;
-  height: auto;
-}
 
 
 @media (max-width: 358px) {
